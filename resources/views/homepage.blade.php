@@ -14,7 +14,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
+a
+{
+    text-decoration: none;
+}
 
 
 .header {
