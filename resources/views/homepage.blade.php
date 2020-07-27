@@ -11,6 +11,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 
@@ -233,9 +235,29 @@ body {
   display: inline-block;
   padding-left: -3px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
+
+.connect
+{
+  width: 100%;
+  display: inline-block;
+}
+.connect-left
+{
+  width: =60%;
+  text-align: center;
+  margin-left: 300px;
+  display:inline;
+
+}
+
+.connect-right {
+  width: 40%;
+  display: inline;
+  float:right;
+}
 .email-promo
 {
   text-align: center;
@@ -707,6 +729,21 @@ body {
 </div>
 </div>
 </div>
+
+<div class="connect">
+  <div class="connect-left">
+    We deliver your dream Website.Stay connect with us
+  </div>
+  <div class="connect-right">
+    <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
+    <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
+    <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
+    <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+
+  </div>
+  <hr>
+</div>
+
 
 <div class="footer">
 <ul>
