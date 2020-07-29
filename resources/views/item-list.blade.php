@@ -84,21 +84,65 @@
               <i class="fa fa-heart-o" aria-hidden="true"style="border:1px solid grey;padding:10px"></i>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="thumbnail-carousel">
+        <div class="item">
+          <img src="image/vertical rectangle.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="image/vertical rectangle.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="image/vertical rectangle.jpg" alt="">
+        </div>
+      </div>
+
+
+      <div class="review-description">
+        <div class="title">
+          <div class="description">
+             Description
+          </div>
+          <div class="review">
+             Review
+          </div>
+        </div>
+        <div class="description-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum metus sollicitudin nunc eleifend viverra. Etiam enim sem, luctus non volutpat at, maximus a nisl. Nullam nec magna sed nulla commodo posuere. Phasellus ut hendrerit neque, sed luctus felis. Phasellus lacinia ut arcu non viverra. Praesent bibendum scelerisque leo, at commodo lorem aliquam eu. Nullam vestibulum a orci non maximus. Fusce feugiat in orci ac pharetra. Cras ullamcorper pellentesque urna, at porttitor mauris semper vel. Fusce sit amet varius neque, non fringilla ante.<br>
+          Pellentesque ultricies elit id ullamcorper interdum. Vestibulum varius augue non turpis viverra tempus. Donec at congue massa, vitae tempor nibh. Nulla venenatis congue turpis, a condimentum est aliquam ac. Quisque non metus mauris. Donec sollicitudin convallis ornare. Morbi volutpat semper sapien. Suspendisse lacus lectus, rutrum non vulputate et, fringilla eget lorem. Nunc congue vestibulum arcu et sodales. Suspendisse dictum finibus dignissim. Nunc sodales ipsum est, id tempus nisl vulputate nec. Ut non libero ultrices, pulvinar nisl eu, rhoncus quam.
+        </div>
+      </div>
+
+      <div class="related-product-text">
+          <div class="text">
+            <strong>Related Product </strong>
+          </div>  
+
+
+
+
+
+
+
+
 
 
 
 </div>
-
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
 <script src="js/bootstrap-input-spinner-master/src/bootstrap-input-spinner.js"></script>
 
 <script>
 $("input[type='number']").inputSpinner();
-
 </script>
 
+<script>
 
+
+</script>
 
   </body>
 </html>

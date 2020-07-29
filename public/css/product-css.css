@@ -124,6 +124,64 @@ a
   margin-right: 3px;
   display: inline-block;
 }
+
+.thumbnail-carousel
+{
+  width: 25%;
+  height:100px;
+
+}
+.item
+{
+  float:left;
+  margin: 5px;
+  width: 27%;
+  height: 100px;
+
+}
+.item img
+{
+  max-width: 100%;
+
+}
+.review-description
+{
+  margin-top: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+
+}
+.description
+{
+  padding: 10px;
+  border: 20px;
+  text-align: left;
+  display: inline-block;
+  width: 10%;
+  background: lightgrey;
+}
+.review
+{
+  text-align: left;
+  display:inline-block;
+  width: 12%;
+  background: white;
+}
+
+.description-text
+{
+
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background-color: lightgrey;
+
+}
+
+.text
+{
+  text-align: left;
+  display: inline-block;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
