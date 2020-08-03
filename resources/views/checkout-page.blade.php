@@ -12,7 +12,7 @@
   <body>
     <div class="header" >
       <div class ="header-left">
-        <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+        <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size:30px">Renoshop</span>Bee</a>
       </div>
       <div class="header-center">
         <a class="active" href="homepage.blade.php">Home</a>
@@ -38,22 +38,223 @@
     </div>
 
     <div class="main-page">
+      <div class="info">
     <div class="billing-detail">
       <strong>Billing Detail </strong>
     </div>
+    <div class="col-50">
+      <div class="caption"> First Name* </div>
+      <div class="input-50">
+        <input type="text" name="" value="" >
+      </div>
 
-    <div class="user-info">
-      <div class="row">
-        <form  action="index.html">
-          <div class="50-input" >
-            <label for="firstname">First Name </label>
-            <input type="text" name="firstname" >
-          </div>
+    </div>
 
-          <div class="50-input" >
-            <label for="firstname">Last Name </label>
-            <input type="text" name="lastname" >
-          </div>
+    <div class="col-50" style="float:right">
+      <div class="caption"> Last Name* </div>
+      <div class="input-50">
+        <input type="text" name="" value="" >
+      </div>
+
+    </div>
+    <div style="clear:both">
+    </div>
+
+    <div class="col-100">
+      <div class="caption"> Country* </div>
+      <div class="select">
+          <select style="width:100%; height: 30px ; margin-bottom:8px;">
+            <option value="0">Viet Nam</option>
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+            <option value="4">Ford</option>
+            <option value="5">Honda</option>
+            <option value="6">Jaguar</option>
+            <option value="7">Land Rover</option>
+            <option value="8">Mercedes</option>
+            <option value="9">Mini</option>
+            <option value="10">Nissan</option>
+            <option value="11">Toyota</option>
+            <option value="12">Volvo</option>
+          </select>
+        </div>
+    </div>
+
+    <div class="col-100">
+      <div class="caption"> Company Name </div>
+      <div class="input-100">
+        <input type="text" name="" value="">
+    </div>
+  </div>
+
+    <div class="col-100">
+      <div class="caption"> Address * </div>
+      <div class="input-100">
+        <input type="text" name="" placeholder="Street Address">
+    </div>
+  </div>
+
+    <div class="col-100">
+      <div class="caption"> Postcode/Zip </div>
+      <div class="input-100">
+        <input type="text" name="" placeholder="Postcode/Zip">
+    </div>
+  </div>
+
+    <div class="col-100">
+      <div class="caption"> Town/City* </div>
+      <div class="input-100">
+        <input type="text" name="" placeholder="Town/City">
+    </div>
+  </div>
+
+    <div class="col-50">
+      <div class="caption"> Email* </div>
+      <div class="input-50">
+        <input type="text" name="" value="" >
+      </div>
+
+    </div>
+
+    <div class="col-50" style="float:right">
+      <div class="caption"> Phone* </div>
+      <div class="input-50">
+        <input type="text" name="" value="" >
+      </div>
+
+    </div>
+    <div style="clear:both">
+    </div>
+
+    <div >
+      <input type="checkbox" name="" value=""> <span style="font-size:10px;">Create an account ?</span>
+    </div>
 
 
-        </form>
+</div>
+
+<div class="billing">
+  <h5 style="padding:5px"> YOUR ORDER </h5>
+  <div class="container">
+    <div class="container-item">
+      <span style="text-align: left">Product </span>
+      <span style ="float: right">Total  </span>
+      <hr>
+    </div>
+</div>
+
+<div class="container">
+  <div class="container-item">
+    <span style="text-align: left">Casual man wearing cool shoe x 1 </span>
+    <span style ="float: right">$120  </span>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="container-item">
+    <span style="text-align: left">Casual men wearing x 2 </span>
+    <span style ="float: right">$280  </span>
+    <hr>
+  </div>
+</div>
+
+<div class="container">
+  <div class="container-item">
+    <span style="text-align: left">Subtotal </span>
+    <span style ="float: right">$ 400  </span>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="container-item">
+    <span style="text-align: left">Shipping </span>
+    <span style ="float: right">Free Shipping  </span>
+    <hr>
+  </div>
+</div>
+
+<div class="container">
+  <div class="container-item">
+    <span style="text-align: left;font-size:15px;"><strong>Total</strong> </span>
+    <span style ="float: right;font-size:15px"><strong>$400 </strong> </span>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+ <div class="checkbox-text"><input type="checkbox" name="" value=""> Direct Bank Transfer</div>
+ <div style="font-size:10px;background-color:lightgrey;border: 1px hidden; padding: 2px;margin-top:5px;margin-bottom:5px; text-align:justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci sem, blandit vel nulla sit amet, auctor congue mauris. Vivamus consequat mi ac elementum pharetra. Suspendisse ullamcorper arcu et est imperdiet bibendum. Aliquam nec ipsum convallis, sollicitudin justo et, tempor arcu</div>
+ <div class="checkbox-text"><input type="checkbox" name="" value=""> Cheque Order</div>
+ <div class="checkbox-text"><input type="checkbox" name="" value=""> Paypal</div>
+</div>
+
+</div>
+<div class="checkout-button">
+<button type="button" name="button">Place Order</button>
+
+</div>
+
+
+<div style="clear:both">
+
+</div>
+
+<div class="footer">
+<div class="connect">
+  <hr>
+
+  <div class="connect-left">
+    We deliver your dream Website.Stay connect with us
+  </div>
+  <div class="connect-right">
+    <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
+    <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
+    <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
+    <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+
+  </div>
+  <hr style="color:lightgrey; ">
+
+</div>
+
+
+</div>
+
+<div class="info-page">
+<ul style="margin-left:0px;">
+  <li><h4> Information </h4></li>
+ <li><a href='' title='Link'>Delivery Information</a></li>
+ <li><a href='' title='Link'>Site Map</a></li>
+ <li><a href='' title='Link'>Contact Us</a></li>
+ <li><a href='' title='Link'>Privecy Policy</a></li>
+ <li><a href='' title='Link'>My Account</a></li>
+
+
+</ul>
+<ul>
+  <li><h4> Your Account </h4></li>
+ <li><a href='' title='Link'>Track YOur Order</a></li>
+ <li><a href='' title='Link'>My Wishlist</a></li>
+ <li><a href='' title='Link'>My Account</a></li>
+</ul>
+</ul>
+<ul>
+  <li><h4> Help </h4></li>
+ <li><a href='' title='Link'>FAQ</a></li>
+ <li><a href='' title='Link'>Shipping</a></li>
+ <li><a href='' title='Link'>Privacy Policy</a></li>
+</ul>
+<ul>
+  <li><h4> Contact Information </h4></li>
+ <li><a href='' title='Link'>123 Your Address</a></li>
+ <li><a href='' title='Link'>+121231231241</a></li>
+ <li><a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+</ul>
+</div>
+
+</div>
+</div>

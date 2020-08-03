@@ -74,24 +74,114 @@ a
   margin-right: 15%
 
 }
-
+.info {
+  width: 60%;
+  float: left;
+}
 .billing-detail
 {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 20px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: nowrap;
-
+.col-50
+{
+  width: 45%;
+  float: left;
+}
+.caption
+{
+  padding-bottom: 5px;
+  font-size: 12px;
 }
 
-.50-input
+.input-50 input
 {
+  width :95%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.col-100
+{
+  width: 99%;
+}
+.input-100 input
+{
+  width: 99%;
+  height:25px;
+  margin-bottom: 10px;
+}
+
+.billing{
+  float:right;
+  border: 1px solid black;
+  width: 38%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.container-item
+{
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-top: 0px;
+}
+
+.checkbox-text
+{
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.checkout-button button
+{
+float: right;
+padding:5px;
+background-color: lightgreen;
+color: white;
+border: hidden;
+font-size: 13px;
+height: 40px;
+width: 10%;
+}
+
+.connect
+{
+  margin-top: 40px;
+}
+.connect-left
+{
+  text-align: left;
   display: inline-block;
 }
+
+.connect-right
+{
+  float: right;
+  text-align: right;
+  display: inline-block;
+  margin-right: 50px;
+}
+.footer
+{
+  margin-top: 200px;
+}
+.info-page {
+  width: 100%;
+ text-align: left;
+ margin-top: 40px;
+ margin-bottom: 30px;
+
+}
+.info-page ul {
+  display: inline-table;
+  list-style: none;
+  text-align: left;
+  margin: 0px 0px 0px 120px;
+  padding-inline-start:0px;
+ }
 
 @media screen and (max-width: 500px) {
   .header a {
