@@ -123,14 +123,39 @@
           <img src="image/vertical rectangle.jpg" alt="">
           <div class="top-rated-text"> Casual man Wearing Cool Shoe
             <br>
-           $250.00
+           <div style="margin-top:35px; color:lightgreen">$250.00
          </div>
-
-
-
         </div>
-
       </div>
+      <div style="clear:both"></div>
+
+      <div class="top-rated-content">
+        <img src="image/vertical rectangle.jpg" alt="">
+        <div class="top-rated-text"> Casual man Wearing Cool Shoe
+          <br>
+         <div style="margin-top:35px; color:lightgreen">$250.00
+       </div>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+
+    <div class="top-rated-content">
+      <img src="image/vertical rectangle.jpg" alt="">
+      <div class="top-rated-text"> Casual man Wearing Cool Shoe
+        <br>
+       <div style="margin-top:35px; color:lightgreen">$250.00
+     </div>
+    </div>
+  </div>
+  <div style="clear:both"></div>
+</div>
+
+<hr style="margin-top:30px">
+
+<div class="promo">
+  <img src="image/vertical rectangle.jpg" alt="">
+</div>
+
 
       </aside>
 
