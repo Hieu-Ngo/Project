@@ -167,6 +167,19 @@
 
 
       <div class="content">
+        <div class="header">
+          <span style="color:lightgrey; font-size:11px"> Showing 1-12 out of 14 result</span>
+          <select class="" name="">
+            <option value="">Sort by Name</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+
+        </div>
+
+<hr style="margin-right:10%">
+
         <div class="product-list">
         <div class="product-image-wrapper">
         <div class="product-image">

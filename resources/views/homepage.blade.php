@@ -50,8 +50,6 @@
     </div>
     </div>
 
-</div>
-
 
 <div class="best-seller">
     <div class="container">
@@ -189,9 +187,9 @@
 <div class="event-image">
   <div class="container">
   <div class="promo-event-image">
-      <img src="image/black rectangle.jpg" alt="Offer1" width="450 px" height=400px>
-      <img src="image/white rectangle.jpg" alt="Offer2" width="450 px" height=400px>
-      <img src="image/red rectangle.png" alt="Offer3" width="  450  px" height=400px>
+      <img src="image/black rectangle.jpg" alt="Offer1" width="490 px" height=430px>
+      <img src="image/white rectangle.jpg" alt="Offer2" width="490 px" height=430px>
+      <img src="image/red rectangle.png" alt="Offer3" width="  490  px" height=430px>
   </div>
 
   </div>
@@ -439,11 +437,12 @@
 
 </div>
 
-
+<div style="clear:both"></div>
+</div>
 <div class="email-footer">
   <div class=container>
     <div class = "footer-image-list">
-      <img src="image/black rectangle.jpg" width="730px" height="170px">
+      <img src="image/black rectangle.jpg" width="52%" height="220px">
       <div class="email-promo" >
         <h3> GET OUR SPECIAL DISCOUNT</h3>
         <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h6  >
@@ -452,10 +451,10 @@
         <input type="text" style="width: 300px;" placeholder="Your email" />
 </div>
       </div>
-      <img src="image/red rectangle.png" alt="Offer1" width="170 px" height=170px>
-      <img src="image/black rectangle.jpg" alt="Offer2" width="170 px" height=170px>
-      <img src="image/red rectangle.png" alt="Offer3" width="  170  px" height=170px>
-      <img src="image/black rectangle.jpg" alt="Offer2" width="170 px" height=170px>
+      <img src="image/red rectangle.png" alt="Offer1" width="175 px" height=220px padding=0px;>
+      <img src="image/black rectangle.jpg" alt="Offer2" width="175 px" height=220px>
+      <img src="image/red rectangle.png" alt="Offer3" width="  170  px" height=220px>
+      <img src="image/black rectangle.jpg" alt="Offer2" width="170 px" height=220px>
 
 </div>
 </div>
