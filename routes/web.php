@@ -13,27 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/','PagesController@homepage') ;
 
-Route::get('/item-list', function () {
-    return view('item-list');
-});
+Route::get('/item-list','PagesController@itemList');
 
-Route::get('/homepage', function () {
-    return view('homepage');
-});
+Route::get('/homepage','PagesController@homepage');
 
-Route::get('/cart', function () {
-    return view('cart');
-});
-Route::get('/checkout', function () {
-    return view('checkout-page');
-});
-Route::get('/product-detail', function () {
-    return view('item-detail');
-});
+Route::get('/cart','PagesController@cart');
 
 
+Route::get('/checkout','PagesController@checkout');
 
+Route::get('/product-detail','PagesController@detail');
