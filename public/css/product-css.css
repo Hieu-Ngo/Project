@@ -192,20 +192,24 @@ a
 }
 .arrow-left
 {
+  margin-right: 35px;
   float: right;
-  text-align: right;
+  text-align: center;
   display: inline-block;
   border: 1px solid black;
   padding: 5px;
+  width: 35px;
   background-color: lightGreen
 }
 .arrow-right
 {
   float: right;
-  text-align: right;
+  text-align: center;
   display: inline-block;
   border: 1px solid black;
   padding: 5px;
+  width: 35px;
+  margin-right: 5px;
 }
 
 .product-image-wrapper
