@@ -12,7 +12,7 @@
   <body>
     <div class="header" >
       <div class ="header-left">
-        <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+        <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
       </div>
       <div class="header-center">
         <a class="active" href="homepage.blade.php">Home</a>
@@ -239,8 +239,7 @@
               <span style ="float: right">$400  </span>
             </div>
           </div>
-
-          <button type="button" class="checkout-button" name="button">PROCESSED TO CHECKOUT</button>
+          <button type="button" class="checkout-button" name="button" onclick="window.location.href='/checkout'" >PROCESSED TO CHECKOUT</button>
 
       </div>
 

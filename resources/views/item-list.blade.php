@@ -11,23 +11,23 @@
   </head>
   <body>
     <div class="header" >
-      <div class ="header-left">
-        <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
-      </div>
-      <div class="header-center">
-        <a class="active" href="homepage.blade.php">Home</a>
-        <a href="item-list.blade.php">Men</a>
-        <a href="#Women">Women</a>
-        <a href="Kids" >Kids</a>
-        <a href="Jewellery"> Jewellery</a>
-        <a href="Accessory"> Accessory</a>
-      </div>
-      <div class ="header-right">
-        <a href ="#shopping cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-        <a href = "menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-       </div>
-    </div>
+  <div class ="header-left">
+    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+  </div>
+  <div class="header-center">
+    <a class="active" href="/homepage">Home</a>
+    <a href="/item-list">Men</a>
+    <a href="/item-list">Women</a>
+    <a href="/item-list" >Kids</a>
+    <a href="/item-list"> Jewellery</a>
+    <a href="/item-list"> Accessory</a>
+  </div>
+  <div class ="header-right">
+    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+    <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
+    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+   </div>
+</div>
 
     <hr style="color:lightgrey; height:50%;">
     <div class="directory-bar">
@@ -120,7 +120,9 @@
       <hr>
       <div class="top-rated">
         <div class="top-rated-content">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
           <div class="top-rated-text"> Casual man Wearing Cool Shoe
             <br>
            <div style="margin-top:35px; color:lightgreen">$250.00
@@ -130,8 +132,10 @@
       <div style="clear:both"></div>
 
       <div class="top-rated-content">
+        <a href="/product-detail">
         <img src="image/vertical rectangle.jpg" alt="">
-        <div class="top-rated-text"> Casual man Wearing Cool Shoe
+        </a>
+      <div class="top-rated-text"> Casual man Wearing Cool Shoe
           <br>
          <div style="margin-top:35px; color:lightgreen">$250.00
        </div>
@@ -140,7 +144,9 @@
     <div style="clear:both"></div>
 
     <div class="top-rated-content">
+      <a href="/product-detail">
       <img src="image/vertical rectangle.jpg" alt="">
+      </a>
       <div class="top-rated-text"> Casual man Wearing Cool Shoe
         <br>
        <div style="margin-top:35px; color:lightgreen">$250.00
@@ -164,7 +170,10 @@
         <div class="product-list">
         <div class="product-image-wrapper">
         <div class="product-image">
+
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
@@ -178,7 +187,9 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
@@ -192,7 +203,10 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
+
         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
@@ -206,7 +220,9 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
@@ -220,7 +236,25 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
+          </a>
+          <div class="product-info">
+          <div>
+          <span><strong>Crown Summit Backpack </strong> </span>
+          </div>
+          <div>
+          <span style="color:lightGreen"> $250.00 </span>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="product-image-wrapper">
+        <div class="product-image">
+          <a href="/product-detail">
+          <img src="image/vertical rectangle.jpg" alt="">
+          </a>
         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
@@ -234,8 +268,10 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
-        <div class="product-info">
+          </a>
+         <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
           </div>
@@ -248,8 +284,11 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
-        <div class="product-info">
+          </a>
+
+          <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
           </div>
@@ -262,22 +301,11 @@
 
         <div class="product-image-wrapper">
         <div class="product-image">
+          <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
-        <div class="product-info">
-          <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
-          </div>
-          <div>
-          <span style="color:lightGreen"> $250.00 </span>
-        </div>
-        </div>
-        </div>
-        </div>
+          </a>
 
-        <div class="product-image-wrapper">
-        <div class="product-image">
-          <img src="image/vertical rectangle.jpg" alt="">
-        <div class="product-info">
+           <div class="product-info">
           <div>
           <span><strong>Crown Summit Backpack </strong> </span>
           </div>

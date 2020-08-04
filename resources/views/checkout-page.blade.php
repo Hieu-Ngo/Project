@@ -11,23 +11,24 @@
   </head>
   <body>
     <div class="header" >
-      <div class ="header-left">
-        <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size:30px">Renoshop</span>Bee</a>
-      </div>
-      <div class="header-center">
-        <a class="active" href="homepage.blade.php">Home</a>
-        <a href="item-list.blade.php">Men</a>
-        <a href="#Women">Women</a>
-        <a href="Kids" >Kids</a>
-        <a href="Jewellery"> Jewellery</a>
-        <a href="Accessory"> Accessory</a>
-      </div>
-      <div class ="header-right">
-        <a href ="#shopping cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-        <a href = "menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-       </div>
-    </div>
+  <div class ="header-left">
+    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+  </div>
+  <div class="header-center">
+    <a class="active" href="/homepage">Home</a>
+    <a href="/item-list">Men</a>
+    <a href="/item-list">Women</a>
+    <a href="/item-list" >Kids</a>
+    <a href="/item-list"> Jewellery</a>
+    <a href="/item-list"> Accessory</a>
+  </div>
+  <div class ="header-right">
+    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+    <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
+    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+   </div>
+</div>
+
 
     <hr style="color:lightgrey; height:50%;">
     <div class="directory-bar">

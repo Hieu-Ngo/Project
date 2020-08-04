@@ -13,20 +13,20 @@
 
 <div class="header" >
   <div class ="header-left">
-    <a href="homepage.blade.php" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
   </div>
   <div class="header-center">
-    <a class="active" href="homepage.blade.php">Home</a>
-    <a href="item-list.blade.php">Men</a>
-    <a href="#Women">Women</a>
-    <a href="Kids" >Kids</a>
-    <a href="Jewellery"> Jewellery</a>
-    <a href="Accessory"> Accessory</a>
+    <a class="active" href="/homepage">Home</a>
+    <a href="/item-list">Men</a>
+    <a href="/item-list">Women</a>
+    <a href="/item-list" >Kids</a>
+    <a href="/item-list"> Jewellery</a>
+    <a href="/item-list"> Accessory</a>
   </div>
   <div class ="header-right">
-    <a href ="#shopping cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
     <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-    <a href = "menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
    </div>
 </div>
 
@@ -67,7 +67,9 @@
 
         <div class="product_two">
 				<div class="product_img">
+          <a href="/product-detail">
 					<img src="image/black rectangle.jpg">
+          </a>
 				</div>
 				<div class="product_text">
 					<h4>Cruise Duo Analog</h4>
@@ -88,7 +90,9 @@
 
       <div class="product_two product_three">
       <div class="product_img">
+        <a href="/product-detail">
         <img src="image/black rectangle.jpg">
+        </a>
       </div>
       <div class="product_text">
         <h4>Cruise Duo Analog</h4>
@@ -109,7 +113,9 @@
 
     <div class="product_two product_four">
     <div class="product_img">
+      <a href="/product-detail">
       <img src="image/black rectangle.jpg">
+      </a>
     </div>
     <div class="product_text">
       <h4>  Purse</h4>
@@ -130,8 +136,10 @@
 
   <div class="product_two product_five">
   <div class="product_img">
+    <a href="/product-detail">
     <img src="image/black rectangle.jpg">
-  </div>
+    </a>
+    </div>
   <div class="product_text">
     <h4>Hermes</h4>
   </div>
@@ -198,8 +206,10 @@
 
   <div class="product_one">
   <div class="product_img">
+    <a href="/product-detail">
     <img src="image/black rectangle.jpg">
-  </div>
+    </a>
+    </div>
   <div class="product_text">
     <h4>Hermes</h4>
   </div>
@@ -221,7 +231,9 @@
 
 <div class="product_two">
 <div class="product_img">
+  <a href="/product-detail">
   <img src="image/black rectangle.jpg">
+  </a>
 </div>
 <div class="product_text">
   <h4>Hermes</h4>
@@ -244,7 +256,9 @@
 
 <div class="product_two">
 <div class="product_img">
+  <a href="/product-detail">
   <img src="image/black rectangle.jpg">
+  </a>
 </div>
 <div class="product_text">
   <h4>Hermes</h4>
@@ -265,7 +279,9 @@
 
 <div class="product_two">
 <div class="product_img">
+  <a href="/product-detail">
   <img src="image/black rectangle.jpg">
+  </a>
 </div>
 <div class="product_text">
   <h4>Hermes</h4>
