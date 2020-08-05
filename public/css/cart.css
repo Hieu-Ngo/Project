@@ -176,7 +176,7 @@ padding-top: 50px;
 {
   font-size: 12px;
   color: lightgrey;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
 .select {
@@ -200,7 +200,14 @@ padding-top: 50px;
   font-size: 12px;
   margin-bottom: 10px;
 }
+.update-button{
+  margin-top: 5px;
+  width:25%;
+  background-color:white;
+  border: 1px solid;
+  padding:5px 10px 5px 10px;
 
+}
 .checkout-button
 {
   margin-top: 8px;
@@ -225,7 +232,7 @@ padding-right: 30px;
   display:inline;
   float: left;
   font-size: 12px;
-  
+
 
 }
 
@@ -248,10 +255,16 @@ padding-right: 30px;
   display: inline-table;
   list-style: none;
   text-align: left;
-  margin: 0px 0px 0px 78px;
+  margin: 0px 120px 0px 0px;
+  padding-inline-start:0px;
  }
 
  .footer li {
    margin-top: 5px;
    font-size: 12px;
+ }
+
+ .footer h4
+ {
+   font-size: 16px;
  }

@@ -481,7 +481,7 @@
 
 
 <div class="footer">
-<ul>
+<ul style="  margin: 0px 0px 0px 63px;">
   <li><h4> Information </h4></li>
  <li><a href='' title='Link'>Delivery Information</a></li>
  <li><a href='' title='Link'>Site Map</a></li>
@@ -491,7 +491,7 @@
 
 
 </ul>
-<ul>
+<ul >
   <li><h4> Your Account </h4></li>
  <li><a href='' title='Link'>Track YOur Order</a></li>
  <li><a href='' title='Link'>My Wishlist</a></li>
@@ -504,7 +504,7 @@
  <li><a href='' title='Link'>Shipping</a></li>
  <li><a href='' title='Link'>Privacy Policy</a></li>
 </ul>
-<ul>
+<ul  style="margin: 0px 0px 0px 150px;">
   <li><h4> Contact Information </h4></li>
  <li>
  <i class="fa fa-globe" aria-hidden="true"></i>
@@ -512,7 +512,7 @@
  <li><i class="fa fa-phone" aria-hidden="true"></i>
  <a href='' title='Link'>+121231231241</a></li>
  <li><i class="fa fa-envelope" aria-hidden="true"></i>
- <a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+ <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
 </ul>
 </div>
 

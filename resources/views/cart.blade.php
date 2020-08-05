@@ -211,7 +211,7 @@
           <input type="number" name="" placeholder="Postcode/Zip" style="width:98%; height:20px">
 
         <div class="update-detail" style="margin-top:10px">
-          <button type="button" name="button" style="width:25%;height:20px; background-color:white; border: 1px solid"> UPDATE TOTALS</button>
+          <button type="button" name="button" class="update-button" > UPDATE TOTALS</button>
 
         </div>
 
@@ -278,7 +278,7 @@
 
 
       <div class="footer">
-      <ul>
+      <ul  style="margin: 0px 78px 0px 0px">
         <li><h4> Information </h4></li>
        <li><a href='' title='Link'>Delivery Information</a></li>
        <li><a href='' title='Link'>Site Map</a></li>
@@ -295,13 +295,15 @@
        <li><a href='' title='Link'>My Account</a></li>
       </ul>
       </ul>
-      <ul>
+      <ul >
         <li><h4> Help </h4></li>
        <li><a href='' title='Link'>FAQ</a></li>
        <li><a href='' title='Link'>Shipping</a></li>
        <li><a href='' title='Link'>Privacy Policy</a></li>
       </ul>
-      <ul>
+
+
+      <ul style="margin-left:150px;">
         <li><h4> Contact Information </h4></li>
        <li>
        <i class="fa fa-globe" aria-hidden="true"></i>
@@ -309,6 +311,6 @@
        <li><i class="fa fa-phone" aria-hidden="true"></i>
        <a href='' title='Link'>+121231231241</a></li>
        <li><i class="fa fa-envelope" aria-hidden="true"></i>
-       <a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+       <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
       </ul>
       </div>

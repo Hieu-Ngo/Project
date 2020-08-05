@@ -243,7 +243,7 @@
  <li><a href='' title='Link'>My Account</a></li>
 </ul>
 </ul>
-<ul>
+<ul  >
   <li><h4> Help </h4></li>
  <li><a href='' title='Link'>FAQ</a></li>
  <li><a href='' title='Link'>Shipping</a></li>
@@ -257,6 +257,6 @@
  <li><i class="fa fa-phone" aria-hidden="true"></i>
  <a href='' title='Link'>+121231231241</a></li>
  <li><i class="fa fa-envelope" aria-hidden="true"></i>
- <a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+ <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
 </ul>
 </div>

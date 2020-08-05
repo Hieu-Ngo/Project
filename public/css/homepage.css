@@ -321,12 +321,17 @@ padding-right: 30px;
   display: inline-table;
   list-style: none;
   text-align: left;
-  margin: 0px 0px 0px 78px;
+  margin: 0px 0px 0px 110px;
+  padding-inline-start:0px;
  }
 
  .footer li {
    margin-top: 5px;
    font-size: 12px;
+ }
+ .footer h4
+ {
+   font-size: 16px;
  }
 @media screen and (max-width: 500px) {
   .header a {
