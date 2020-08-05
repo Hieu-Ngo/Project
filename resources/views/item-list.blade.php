@@ -401,9 +401,13 @@
     <div style="clear:both; margin-bottom:30px;">
 
     </div>
+  </div>
 
-    <div >
-    <hr>
+    <div  style="margin-left:15%; margin-right:15%;">
+      <hr style=" margin-left: -300px;width:2000px">
+
+
+
     <div class="connect">
       <div class="connect-left">
         We deliver your dream Website.Stay connect with us
@@ -419,8 +423,8 @@
       </div>
     </div>
 
-    <hr>
 
+    <hr style=" margin-left: -300px;width:2000px">
 
     <div class="footer">
     <ul  style="margin: 0px 78px 0px 0px";

@@ -205,7 +205,7 @@
 </div>
 
 <div style="margin-left:15%; margin-right:15%">
-<hr>
+  <hr style=" margin-left: -300px;width:2000px">
 <div class="connect">
   <div class="connect-left">
     We deliver your dream Website.Stay connect with us
@@ -221,7 +221,7 @@
   </div>
 </div>
 
-<hr>
+<hr style=" margin-left: -300px;width:2000px">
 
 
 <div class="footer">
