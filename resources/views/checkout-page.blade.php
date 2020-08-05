@@ -11,23 +11,23 @@
   </head>
   <body>
     <div class="header" >
-  <div class ="header-left">
-    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
-  </div>
-  <div class="header-center">
-    <a class="active" href="/homepage">Home</a>
-    <a href="/item-list">Men</a>
-    <a href="/item-list">Women</a>
-    <a href="/item-list" >Kids</a>
-    <a href="/item-list"> Jewellery</a>
-    <a href="/item-list"> Accessory</a>
-  </div>
-  <div class ="header-right">
-    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-    <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-   </div>
-</div>
+      <div class ="header-left">
+        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
+      </div>
+      <div class="header-center">
+        <a class="active" href="/homepage">HOME</a>
+        <a href="/item-list">MEN</a>
+        <a href="/item-list">WOMEN</a>
+        <a href="/item-list" >KIDS</a>
+        <a href="/item-list"> JEWELLERY</a>
+        <a href="/item-list"> ACCESSORY</a>
+      </div>
+      <div class ="header-right">
+        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
+        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+       </div>
+    </div>
 
 
     <hr style="color:lightgrey; height:50%;">
@@ -199,34 +199,34 @@
 
 </div>
 
-
-<div style="clear:both">
+</div>
+<div style="clear:both; margin-bottom:150px;">
 
 </div>
 
-<div class="footer">
+<div style="margin-left:15%; margin-right:15%">
+<hr>
 <div class="connect">
-  <hr>
-
   <div class="connect-left">
     We deliver your dream Website.Stay connect with us
   </div>
   <div class="connect-right">
-    <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
-    <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
-    <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
-    <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+    <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
+    <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
+    <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
+    <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
+    <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
+
 
   </div>
-  <hr style="color:lightgrey; ">
-
 </div>
 
+<hr>
 
-</div>
 
-<div class="info-page">
-<ul style="margin-left:0px;">
+<div class="footer">
+<ul  style="margin: 0px 78px 0px 0px";
+>
   <li><h4> Information </h4></li>
  <li><a href='' title='Link'>Delivery Information</a></li>
  <li><a href='' title='Link'>Site Map</a></li>
@@ -251,11 +251,12 @@
 </ul>
 <ul>
   <li><h4> Contact Information </h4></li>
- <li><a href='' title='Link'>123 Your Address</a></li>
- <li><a href='' title='Link'>+121231231241</a></li>
- <li><a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+ <li>
+ <i class="fa fa-globe" aria-hidden="true"></i>
+ <a href='' title='Link'>123 Your Address</a></li>
+ <li><i class="fa fa-phone" aria-hidden="true"></i>
+ <a href='' title='Link'>+121231231241</a></li>
+ <li><i class="fa fa-envelope" aria-hidden="true"></i>
+ <a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
 </ul>
-</div>
-
-</div>
 </div>

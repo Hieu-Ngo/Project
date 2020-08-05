@@ -13,15 +13,15 @@
 
 <div class="header" >
   <div class ="header-left">
-    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
+    <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
   </div>
   <div class="header-center">
-    <a class="active" href="/homepage">Home</a>
-    <a href="/item-list">Men</a>
-    <a href="/item-list">Women</a>
-    <a href="/item-list" >Kids</a>
-    <a href="/item-list"> Jewellery</a>
-    <a href="/item-list"> Accessory</a>
+    <a class="active" href="/homepage">HOME</a>
+    <a href="/item-list">MEN</a>
+    <a href="/item-list">WOMEN</a>
+    <a href="/item-list" >KIDS</a>
+    <a href="/item-list"> JEWELLERY</a>
+    <a href="/item-list"> ACCESSORY</a>
   </div>
   <div class ="header-right">
     <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
@@ -42,11 +42,12 @@
       </div>
     </div>
     <div class="text-over-image">
-        <h1>THE BEST</h1>
-        <h1>WOOCOMMERCE</h1>
+        <h1 >THE BEST</h1>
+        <h1 style=" color:lightGreen;">WOOCOMMERCE</h1>
         <p>Lorem ipsum dolor sit amet, consecte</p>
         <p>tur adipiscing elit. Ut condimentum pha</p>
-        <a  href="#Buy Now">  <span style="border: 1px solid grey;font-size=10px;color:grey;padding: 2px"> BUY NOW </span></a>
+
+        <a  href="#Buy Now">  <span > BUY NOW </span></a>
     </div>
     </div>
 
@@ -77,7 +78,7 @@
 						$254.99
 				</div>
         </div>
-				<div class="star_rating">
+				<div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -100,7 +101,7 @@
           $1054.99
       </div>
       </div>
-      <div class="star_rating">
+      <div class="star-rating">
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
                   <i class="fa fa-star" aria-hidden="true"></i>
@@ -123,7 +124,7 @@
         $254.99
     </div>
     </div>
-    <div class="star_rating">
+    <div class="star-rating">
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -146,7 +147,7 @@
       $192.99
   </div>
   </div>
-  <div class="star_rating">
+  <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -187,9 +188,9 @@
 <div class="event-image">
   <div class="container">
   <div class="promo-event-image">
-      <img src="image/black rectangle.jpg" alt="Offer1" width="490 px" height=430px>
-      <img src="image/white rectangle.jpg" alt="Offer2" width="490 px" height=430px>
-      <img src="image/red rectangle.png" alt="Offer3" width="  490  px" height=430px>
+      <img src="image/black rectangle.jpg" alt="Offer1" width="502 px" height=430px>
+      <img src="image/white rectangle.jpg" alt="Offer2" width="502 px" height=430px>
+      <img src="image/red rectangle.png" alt="Offer3" width="  502  px" height=430px>
   </div>
 
   </div>
@@ -216,7 +217,7 @@
       $192.99
   </div>
   </div>
-  <div class="star_rating">
+  <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -241,7 +242,7 @@
     $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -266,7 +267,7 @@
     $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -289,7 +290,7 @@
     $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -310,7 +311,7 @@
     $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -337,7 +338,7 @@
     $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -360,7 +361,7 @@
   $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -383,7 +384,7 @@
   $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -406,7 +407,7 @@
   $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -427,7 +428,7 @@
   $192.99
 </div>
 </div>
-<div class="star_rating">
+<div class="star-rating">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -439,6 +440,7 @@
 
 <div style="clear:both"></div>
 </div>
+
 <div class="email-footer">
   <div class=container>
     <div class = "footer-image-list">
@@ -451,10 +453,10 @@
         <input type="text" style="width: 300px;" placeholder="Your email" />
 </div>
       </div>
-      <img src="image/red rectangle.png" alt="Offer1" width="175 px" height=220px padding=0px;>
-      <img src="image/black rectangle.jpg" alt="Offer2" width="175 px" height=220px>
-      <img src="image/red rectangle.png" alt="Offer3" width="  170  px" height=220px>
-      <img src="image/black rectangle.jpg" alt="Offer2" width="170 px" height=220px>
+      <img src="image/red rectangle.png" alt="Offer1" width="177 px" height=220px padding=0px;>
+      <img src="image/black rectangle.jpg" alt="Offer2" width="177 px" height=220px>
+      <img src="image/red rectangle.png" alt="Offer3" width="  177  px" height=220px>
+      <img src="image/black rectangle.jpg" alt="Offer2" width="177 px" height=220px>
 
 </div>
 </div>
@@ -465,14 +467,17 @@
     We deliver your dream Website.Stay connect with us
   </div>
   <div class="connect-right">
-    <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
-    <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
-    <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
-    <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+    <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
+    <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
+    <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
+    <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
+    <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
+
 
   </div>
-  <hr>
 </div>
+
+<hr>
 
 
 <div class="footer">
@@ -501,9 +506,13 @@
 </ul>
 <ul>
   <li><h4> Contact Information </h4></li>
- <li><a href='' title='Link'>123 Your Address</a></li>
- <li><a href='' title='Link'>+121231231241</a></li>
- <li><a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+ <li>
+ <i class="fa fa-globe" aria-hidden="true"></i>
+ <a href='' title='Link'>123 Your Address</a></li>
+ <li><i class="fa fa-phone" aria-hidden="true"></i>
+ <a href='' title='Link'>+121231231241</a></li>
+ <li><i class="fa fa-envelope" aria-hidden="true"></i>
+ <a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
 </ul>
 </div>
 

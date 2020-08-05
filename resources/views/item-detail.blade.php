@@ -12,24 +12,23 @@
   </head>
   <body>
     <div class="header" >
-  <div class ="header-left">
-    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
-  </div>
-  <div class="header-center">
-    <a class="active" href="/homepage">Home</a>
-    <a href="/item-list">Men</a>
-    <a href="/item-list">Women</a>
-    <a href="/item-list" >Kids</a>
-    <a href="/item-list"> Jewellery</a>
-    <a href="/item-list"> Accessory</a>
-  </div>
-  <div class ="header-right">
-    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-    <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-   </div>
-</div>
-
+      <div class ="header-left">
+        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
+      </div>
+      <div class="header-center">
+        <a class="active" href="/homepage">HOME</a>
+        <a href="/item-list">MEN</a>
+        <a href="/item-list">WOMEN</a>
+        <a href="/item-list" >KIDS</a>
+        <a href="/item-list"> JEWELLERY</a>
+        <a href="/item-list"> ACCESSORY</a>
+      </div>
+      <div class ="header-right">
+        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
+        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+       </div>
+    </div>
 
     <hr style="color:lightgrey; height:50%;">
 <div class="main-page">
@@ -58,7 +57,7 @@
           </div>
         </div>
 
-        
+
 
       </div>
 
@@ -66,8 +65,8 @@
 
       <div class="product-info-text">
         <h2>This Is The Product Name </h2>
-        <span style="color: lightGreen; margin-left:5px; font-size: 22px"> $ 250.00         </span>
-        <span>
+        <span style="color: lightGreen; margin-left:5px; margin-right: 5px;font-size: 22px"> $ 250.00  </span>
+        <span style="font-size:10px;color:orange">
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -98,10 +97,10 @@
         <br>
         <div class="cart-container clearfix">
           <div class="cart">
-            <i class="fa fa-shopping-cart style" aria-hidden="true"></i> Add to Cart
+            <span style="color:white"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> Add to Cart</span>
           </div>
           <div class="icon">
-            <i class="fa fa-heart-o" aria-hidden="true" style="border:1px solid grey; padding:10px"></i>
+            <i class="fa fa-heart-o" aria-hidden="true" style="border:1px solid grey; padding:10px ;"></i>
             <i class="fa fa-heart-o" aria-hidden="true"style="border:1px solid grey;padding:10px"></i>
           </div>
         </div>
@@ -151,6 +150,13 @@
           <div>
           <span style="color:lightGreen"> $250.00 </span>
         </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
         </div>
         </div>
         </div>
@@ -165,6 +171,13 @@
         <div>
         <span style="color:lightGreen"> $250.00 </span>
       </div>
+      <div class="star-rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
       </div>
       </div>
       </div>
@@ -178,6 +191,13 @@
     </div>
     <div>
     <span style="color:lightGreen"> $250.00 </span>
+  </div>
+  <div class="star-rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
   </div>
   </div>
   </div>
@@ -194,34 +214,45 @@
   <div>
   <span style="color:lightGreen"> $250.00 </span>
 </div>
+<div class="star-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
 </div>
 </div>
 </div>
 </div>
-<div style="clear:both"></div>
-<div class="footer">
-<div class="connect">
-  <hr>
+</div>
 
+<div style="clear:both; margin-bottom:150px;">
+
+</div>
+
+<div >
+<hr>
+<div class="connect">
   <div class="connect-left">
     We deliver your dream Website.Stay connect with us
   </div>
   <div class="connect-right">
-    <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
-    <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
-    <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
-    <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+    <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
+    <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
+    <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
+    <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
+    <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
+
 
   </div>
-  <hr style="color:lightgrey; ">
-
 </div>
 
+<hr>
 
-</div>
 
-<div class="info-page">
-<ul style="margin-left:0px;">
+<div class="footer">
+<ul  style="margin: 0px 78px 0px 0px";
+>
   <li><h4> Information </h4></li>
  <li><a href='' title='Link'>Delivery Information</a></li>
  <li><a href='' title='Link'>Site Map</a></li>
@@ -246,14 +277,18 @@
 </ul>
 <ul>
   <li><h4> Contact Information </h4></li>
- <li><a href='' title='Link'>123 Your Address</a></li>
- <li><a href='' title='Link'>+121231231241</a></li>
- <li><a href='' title='Link'><span style="color=lightGreen">email@emailaddress.com</a><span></li>
+ <li>
+ <i class="fa fa-globe" aria-hidden="true"></i>
+ <a href='' title='Link'>123 Your Address</a></li>
+ <li><i class="fa fa-phone" aria-hidden="true"></i>
+ <a href='' title='Link'>+121231231241</a></li>
+ <li><i class="fa fa-envelope" aria-hidden="true"></i>
+ <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
 </ul>
 </div>
 
 </div>
-</div>
+
 
 
 </div>

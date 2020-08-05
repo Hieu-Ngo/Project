@@ -2,28 +2,67 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Http\Reponds;
+
 
 class PagesController extends Controller
+
 {
-    public function homepage(){
+  /**
+     * Get view of homepage
+     *
+     *
+     *
+     * @return respond homepage
+     *
+  */
+    public function getViewHomepage(){
         return view('homepage');
     }
 
-    public function itemList(){
+
+    /**
+       * Get view of item list
+       *
+       * @return respond item-list
+       *
+    */
+    public function getViewItemList(){
         return view('item-list');
     }
 
-    public function detail(){
+
+    /**
+       * Get view of item detail page
+       *
+       *
+       *
+       * @return respond item-detail
+       *
+    */
+    public function getViewItemDetail(){
         return view('item-detail');
     }
 
-    public function cart(){
+
+    /**
+       * Get view of cart page
+       *
+       * @return respond cart
+       *
+    */
+    public function getViewCart(){
         return view('cart');
     }
 
 
-    public function checkout(){
+    /**
+       * Get view of checkout page
+       *
+       * @return Respond checkout-page
+       *
+    */
+    public function getViewCheckout(){
         return view('checkout-page');
     }
 }

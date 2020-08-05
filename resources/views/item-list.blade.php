@@ -11,23 +11,23 @@
   </head>
   <body>
     <div class="header" >
-  <div class ="header-left">
-    <a href="/homepage" class="homepage"><span style="color: lightgreen; font-size=px">Renoshop</span>Bee</a>
-  </div>
-  <div class="header-center">
-    <a class="active" href="/homepage">Home</a>
-    <a href="/item-list">Men</a>
-    <a href="/item-list">Women</a>
-    <a href="/item-list" >Kids</a>
-    <a href="/item-list"> Jewellery</a>
-    <a href="/item-list"> Accessory</a>
-  </div>
-  <div class ="header-right">
-    <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-    <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-    <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-   </div>
-</div>
+      <div class ="header-left">
+        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
+      </div>
+      <div class="header-center">
+        <a class="active" href="/homepage">HOME</a>
+        <a href="/item-list">MEN</a>
+        <a href="/item-list">WOMEN</a>
+        <a href="/item-list" >KIDS</a>
+        <a href="/item-list"> JEWELLERY</a>
+        <a href="/item-list"> ACCESSORY</a>
+      </div>
+      <div class ="header-right">
+        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
+        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
+        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
+       </div>
+    </div>
 
     <hr style="color:lightgrey; height:50%;">
     <div class="directory-bar">
@@ -41,7 +41,7 @@
     <div class="mainpage clearfix">
       <aside class="sidebar">
         <div class="category">
-          <div style="padding-left:5px"><strong>Categories</strong> </div>
+          <div style="padding-left:5px">Categories </div>
           <div>
             <ul id="category-list">
               <li><a href="#Accessory"></a>Accessory(15)</li>
@@ -69,7 +69,7 @@
         <hr>
       </div>
       <div class="size">
-        <div><strong>Size</strong></div>
+        <div>Size</div>
         <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px; box-sizing:border-box">XS</span>
         <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">S</span>
         <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">M</span>
@@ -81,7 +81,7 @@
         <hr style="margin-top:8px;">
       </div>
       <div class="colors">
-        <div style="padding-left:2px"><strong> Color </strong ></div>
+        <div style="padding-left:2px"> Color </ ></div>
         <div class="color-checkbox">
           <div>
           <input type="checkbox" >
@@ -189,10 +189,16 @@
           </a>
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -205,10 +211,16 @@
           </a>
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -222,10 +234,16 @@
 
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -238,11 +256,18 @@
           </a>
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
+
         </div>
         </div>
         </div>
@@ -254,10 +279,16 @@
           </a>
           <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -270,10 +301,17 @@
           </a>
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+           $250.00
+        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -286,10 +324,16 @@
           </a>
          <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -303,10 +347,16 @@
 
           <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -320,10 +370,16 @@
 
            <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
         </div>
         </div>
@@ -338,55 +394,68 @@
       </div>
     </div>
 
-      <div class="connect">
-        <div class="connect-left">
+    <div style="clear:both; margin-bottom:150px;">
 
-          We deliver your dream Website.Stay connect with us
-        </div>
-        <div class="connect-right">
-          <i class="fab fa-twitter fa-lg" style="margin-right:10px" ></i>
-          <i class="fab fa-facebook fa-lg" style="margin-right:10px"></i>
-          <i class="fab fa-instagram fa-lg"style="margin-right:10px"></i>
-          <i class="fab fa-linkedin fa-lg"style="margin-right:10px"></i>
+    </div>
 
-        </div>
-        <hr style="color:lightgrey; ">
+    <div >
+    <hr>
+    <div class="connect">
+      <div class="connect-left">
+        We deliver your dream Website.Stay connect with us
+      </div>
+      <div class="connect-right">
+        <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
+        <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
+        <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
+        <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
+        <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
+
 
       </div>
+    </div>
+
+    <hr>
 
 
+    <div class="footer">
+    <ul  style="margin: 0px 78px 0px 0px";
+    >
+      <li><h4> Information </h4></li>
+     <li><a href='' title='Link'>Delivery Information</a></li>
+     <li><a href='' title='Link'>Site Map</a></li>
+     <li><a href='' title='Link'>Contact Us</a></li>
+     <li><a href='' title='Link'>Privecy Policy</a></li>
+     <li><a href='' title='Link'>My Account</a></li>
 
-      <div class="info-page">
-      <ul>
-        <li><h4> Information </h4></li>
-       <li><a href='' title='Link'>Delivery Information</a></li>
-       <li><a href='' title='Link'>Site Map</a></li>
-       <li><a href='' title='Link'>Contact Us</a></li>
-       <li><a href='' title='Link'>Privecy Policy</a></li>
-       <li><a href='' title='Link'>My Account</a></li>
 
+    </ul>
+    <ul>
+      <li><h4> Your Account </h4></li>
+     <li><a href='' title='Link'>Track YOur Order</a></li>
+     <li><a href='' title='Link'>My Wishlist</a></li>
+     <li><a href='' title='Link'>My Account</a></li>
+    </ul>
+    </ul>
+    <ul>
+      <li><h4> Help </h4></li>
+     <li><a href='' title='Link'>FAQ</a></li>
+     <li><a href='' title='Link'>Shipping</a></li>
+     <li><a href='' title='Link'>Privacy Policy</a></li>
+    </ul>
+    <ul>
+      <li><h4> Contact Information </h4></li>
+     <li>
+     <i class="fa fa-globe" aria-hidden="true"></i>
+     <a href='' title='Link'>123 Your Address</a></li>
+     <li><i class="fa fa-phone" aria-hidden="true"></i>
+     <a href='' title='Link'>+121231231241</a></li>
+     <li><i class="fa fa-envelope" aria-hidden="true"></i>
+     <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
+    </ul>
+    </div>
 
-      </ul>
-      <ul>
-        <li><h4> Your Account </h4></li>
-       <li><a href='' title='Link'>Track YOur Order</a></li>
-       <li><a href='' title='Link'>My Wishlist</a></li>
-       <li><a href='' title='Link'>My Account</a></li>
-      </ul>
-      </ul>
-      <ul>
-        <li><h4> Help </h4></li>
-       <li><a href='' title='Link'>FAQ</a></li>
-       <li><a href='' title='Link'>Shipping</a></li>
-       <li><a href='' title='Link'>Privacy Policy</a></li>
-      </ul>
-      <ul>
-        <li><h4> Contact Information </h4></li>
-       <li><a href='' title='Link'>123 Your Address</a></li>
-       <li><a href='' title='Link'>+121231231241</a></li>
-       <li><a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
-      </ul>
-      </div>
+    </div>
 
 
 </body>

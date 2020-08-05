@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','PagesController@homepage') ;
+Route::get('/','PagesController@getViewHomepage') ;
 
-Route::get('/item-list','PagesController@itemList');
+Route::get('/item-list','PagesController@getViewItemList');
 
-Route::get('/homepage','PagesController@homepage');
+Route::get('/homepage','PagesController@getViewHomepage');
 
-Route::get('/cart','PagesController@cart');
+Route::get('/cart','PagesController@getViewCart');
 
 
-Route::get('/checkout','PagesController@checkout');
+Route::get('/checkout','PagesController@getViewCheckout');
 
-Route::get('/product-detail','PagesController@detail');
+Route::get('/product-detail','PagesController@getViewItemDetail');
