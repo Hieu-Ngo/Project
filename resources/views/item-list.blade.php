@@ -129,39 +129,43 @@
           <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
           </a>
-          <div class="top-rated-text"> Casual man Wearing Cool Shoe
+          <div class="text-wrap">
+          <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
             <br>
-           <div style="margin-top:35px; color:lightgreen">$250.00
+           <div class="top-rated-price">$250.00
          </div>
-        </div>
+       </div>
       </div>
+
       <div style="clear:both"></div>
 
       <div class="top-rated-content">
         <a href="/product-detail">
         <img src="image/vertical rectangle.jpg" alt="">
         </a>
-      <div class="top-rated-text"> Casual man Wearing Cool Shoe
+        <div class="text-wrap">
+        <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
           <br>
-         <div style="margin-top:35px; color:lightgreen">$250.00
+         <div class="top-rated-price">$250.00
        </div>
-      </div>
+     </div>
     </div>
+
     <div style="clear:both"></div>
 
     <div class="top-rated-content">
       <a href="/product-detail">
       <img src="image/vertical rectangle.jpg" alt="">
       </a>
-      <div class="top-rated-text"> Casual man Wearing Cool Shoe
+      <div class="text-wrap">
+      <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
         <br>
-       <div style="margin-top:35px; color:lightgreen">$250.00
+       <div class="top-rated-price">$250.00
      </div>
-    </div>
+   </div>
   </div>
-  <div style="clear:both"></div>
-</div>
 
+  <div style="clear:both"></div>
 <hr style="margin-top:30px">
 
 <div class="promo">
