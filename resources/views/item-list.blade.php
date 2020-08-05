@@ -387,14 +387,18 @@
 
         <div class="page-number">
           <hr>
-          <div style="text-align:center">1  2  3  4  5  6 .</div>
+          <div class="page">1    2    3    4    5    6  .  .
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+          </div>
           <hr>
 
       </div>
       </div>
     </div>
 
-    <div style="clear:both; margin-bottom:150px;">
+    <div style="clear:both; margin-bottom:30px;">
 
     </div>
 
