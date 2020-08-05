@@ -41,7 +41,7 @@
     <div class="mainpage clearfix">
       <aside class="sidebar">
         <div class="category">
-          <div style="padding-left:5px">Categories </div>
+            <div style="padding-left:5px; font-weight:bold; font-size:14px">CATEGORIES</div>
           <div>
             <ul id="category-list">
               <li><a href="#Accessory"></a>Accessory(15)</li>
@@ -61,27 +61,31 @@
           <br>
           <br>
           <div class="input-price">
-            <input type="text" name="min-valuue" placeholder="100" class="min-value">
+            <input type="text" name="min-valuue" placeholder="100" class="min-value"style="height:25px;">
 
-            <input type="text" name="max-value" placeholder="1000"class="max-value" >
-            <span style="background-color:lightgreen;padding:1px"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <input type="text" name="max-value" placeholder="1000"class="max-value" style="height:25px;" >
+            <span style="background-color:lightgreen;padding:5px; color:white"><i class="fa fa-search" aria-hidden="true"></i></span>
           </div>
         <hr>
       </div>
       <div class="size">
-        <div>Size</div>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px; box-sizing:border-box">XS</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">S</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">M</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">L</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">SL</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">XL</span>
-        <span style="padding:1px 10px 1px 10px;border:solid 0.2px black; width:24%;font-size:12px;box-sizing:border-box">XXL</span>
+        <div><span style="font-weight:bold">Size </span>
+          <br>
+        <div class="size-text" >XS</div>
+        <div class="size-text" >S</div>
+        <div class="size-text">M</div>
+        <div class="size-text">L</div>
+        <div class="size-text">SL</div>
+        <div class="size-text">XL</div>
+        <div class="size-text">XXL</div>
+        </div>
         <br>
-        <hr style="margin-top:8px;">
       </div>
+      <div style="clear:both"></div>
       <div class="colors">
-        <div style="padding-left:2px"> Color </ ></div>
+        <hr style="margin-top:8px;">
+
+        <div style="padding-left:2px; font-weight:bold; font-size:14px;"> COLOR </ ></div>
         <div class="color-checkbox">
           <div>
           <input type="checkbox" >
@@ -119,6 +123,8 @@
       </div>
       <hr>
       <div class="top-rated">
+        <div style="padding-left:5px; font-weight:bold; font-size:14px; margin-bottom:10px">TOP RATED</div>
+
         <div class="top-rated-content">
           <a href="/product-detail">
           <img src="image/vertical rectangle.jpg" alt="">
