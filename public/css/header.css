@@ -1,0 +1,67 @@
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+a
+{
+    text-decoration: none;
+}
+
+.margin-left
+{
+  margin-left: 5px;
+}
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px ;
+  padding-bottom: 3px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  color: Green;
+}
+
+.header-left
+{
+  width: 25%;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.header-center {
+  width:35%;
+  margin:0 auto;
+  color: gray;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 12px;
+
+
+}
+.header-right {
+  width: 10%;
+  float: right;
+}

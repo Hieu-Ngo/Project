@@ -78,6 +78,7 @@ a
 {
   text-align: : left;
   margin-bottom: 25px;
+  font-size: 12px;
 
 }
 
@@ -99,14 +100,33 @@ a
 }
 
 .product-info-text{
-  float: right;
+  float: left;
 
   width: 60%;
+  margin-bottom: 20px;
+}
+.product-info-text h2
+{
+  margin-bottom: 10px;
+}
+.product-info-text p
+{
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .clear{
   clear: both;
 }
-
+.attribute-select
+{
+width: 35%;
+float:left
+height:35px;
+margin-bottom:25px;
+margin-right: 35px;
+padding: 8px;
+border: 0.5px lightGrey solid;
+}
 .cart-container
 {
   float: left;
@@ -117,6 +137,8 @@ a
   border:3px;
   background: Lightgreen;
   padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   float left;
   display: inline-block;
 
@@ -124,7 +146,6 @@ a
 .icon
 {
   margin-left: 3px;
-  border:0.5px lightgrey;
   margin-right: 3px;
   display: inline-block;
 }
@@ -180,6 +201,11 @@ a
   padding-left: 15px;
   padding-bottom: 20px;
   background-color: lightgrey;
+  padding-top: 15px;
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 10px;
+  line-height: 150%;
 
 }
 .related-product-text
@@ -191,6 +217,30 @@ a
   float: left;
   text-align: left;
   display: inline-block;
+}
+.input-group-prepend
+{
+  height: 40px;
+
+}
+
+.input-group button
+{
+  height:40px;
+  border: 0.5px solid lightGrey;
+  background: white;
+}
+.input-group
+{
+  display: flex;
+  height: 40px;
+
+}
+.input-group input
+{
+  width: 21%;
+  border: 0.5px solid lightgrey;
+
 }
 .arrow-left
 {

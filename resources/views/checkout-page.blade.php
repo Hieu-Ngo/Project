@@ -10,38 +10,12 @@
 
   </head>
   <body>
-    <div class="header" >
-      <div class ="header-left">
-        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
-      </div>
-      <div class="header-center">
-        <a class="active" href="/homepage">HOME</a>
-        <a href="/item-list">MEN</a>
-        <a href="/item-list">WOMEN</a>
-        <a href="/item-list" >KIDS</a>
-        <a href="/item-list"> JEWELLERY</a>
-        <a href="/item-list"> ACCESSORY</a>
-      </div>
-      <div class ="header-right">
-        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-       </div>
-    </div>
-
-
-    <hr style="color:lightgrey; height:50%;">
-    <div class="directory-bar">
-        <a href="#">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Page</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Shop</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#"><span style="color:lightgreen">Checkout</span></a>
-    </div>
+    @include("header");
 
     <div class="main-page">
       <div class="info">
     <div class="billing-detail">
-      <strong>Billing Detail </strong>
+      <strong>BILLING DETAILS </strong>
     </div>
     <div class="col-50">
       <div class="caption"> First Name* </div>

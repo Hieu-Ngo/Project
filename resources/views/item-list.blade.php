@@ -5,38 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>checkout-page</title>
     <link rel="stylesheet" type="text/css" href="css/item-list.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.0/nouislider.min.css" rel="stylesheet" src="">
     <script src="https://kit.fontawesome.com/ac206ac257.js" crossorigin="anonymous"></script>
 
 
   </head>
   <body>
-    <div class="header" >
-      <div class ="header-left">
-        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
-      </div>
-      <div class="header-center">
-        <a class="active" href="/homepage">HOME</a>
-        <a href="/item-list">MEN</a>
-        <a href="/item-list">WOMEN</a>
-        <a href="/item-list" >KIDS</a>
-        <a href="/item-list"> JEWELLERY</a>
-        <a href="/item-list"> ACCESSORY</a>
-      </div>
-      <div class ="header-right">
-        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-       </div>
-    </div>
+    @include("header");
 
-    <hr style="color:lightgrey; height:50%;">
-    <div class="directory-bar">
-        <a href="#">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Page</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Shop</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#"><span style="color:lightgreen">Category</span></a>
-    </div>
-
+    <hr>
 
     <div class="mainpage clearfix">
       <aside class="sidebar">
@@ -57,9 +34,9 @@
         <hr>
       </div>
         <div class="price">
-          <div id="slider"> </div>
-          <br>
-          <br>
+          <div id="slider" style="margin-bottom:10px;"> </div>
+
+
           <div class="input-price">
             <input type="text" name="min-valuue" placeholder="100" class="min-value"style="height:25px;">
 
@@ -480,83 +457,21 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script type="text/javascript" src="\js\slider\src\nouislider.js">
   </script>
 
   <script>
-  var range = document.getElementById('range');
+  var slider = document.getElementById('slider');
 
-noUiSlider.create(range, {
-
-    range: {
-        'min': 1300,
-        'max': 3250
-    },
-
-    step: 150,
-
-    // Handles start at ...
-    start: [1450, 2050, 2350, 3000],
-
-    // ... must be at least 300 apart
-    margin: 300,
-
-    // ... but no more than 600
-    limit: 600,
-
-    // Display colored bars between handles
+noUiSlider.create(slider, {
+    start: [20, 80],
     connect: true,
-
-    // Put '0' at the bottom of the slider
-    direction: 'rtl',
-    orientation: 'vertical',
-
-    // Move handle on tap, bars are draggable
-    behaviour: 'tap-drag',
-
-    // Show a scale with the slider
-    pips: {
-        mode: 'steps',
-        stepped: true,
-        density: 4
+    range: {
+        'min': 0,
+        'max': 100
     }
 });
+
 
 
 </script>

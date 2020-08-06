@@ -87,6 +87,8 @@ a
 {
   margin-left: 15%;
   margin-right: 15%;
+  margin-top:40px;
+
 }
 
 .sidebar
@@ -145,7 +147,7 @@ a
 
 
 .size-text{
-  padding:1px 10px 1px 10px;
+  padding:5px 10px 5px 10px;
   border:solid 0.2px black;
   margin-top: 6px;
   margin-right: 2px;
@@ -246,6 +248,7 @@ word-wrap: break-word}
   text-align: center;
   width: 90%;
 margin: auto;
+letter-spacing: 10px;
 }
 .connect
 {
@@ -293,6 +296,12 @@ padding-right: 30px;
  }
 
 
+
+.noUi-connect
+{
+  color: black;
+  background-color: black;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;

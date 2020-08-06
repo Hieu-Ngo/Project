@@ -4,31 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product-page</title>
-    <link rel="stylesheet" type="text/css" href="css/product-css.css">
+    <link rel="stylesheet" type="text/css" href="css/item-detail.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/ac206ac257.js" crossorigin="anonymous"></script>
 
 
   </head>
   <body>
-    <div class="header" >
-      <div class ="header-left">
-        <a href="/homepage" class="homepage"><span style="color: lightgreen;margin-left: 25px;; font-size=30px">Renoshop</span>Bee</a>
-      </div>
-      <div class="header-center">
-        <a class="active" href="/homepage">HOME</a>
-        <a href="/item-list">MEN</a>
-        <a href="/item-list">WOMEN</a>
-        <a href="/item-list" >KIDS</a>
-        <a href="/item-list"> JEWELLERY</a>
-        <a href="/item-list"> ACCESSORY</a>
-      </div>
-      <div class ="header-right">
-        <a href ="/cart"><i class="fa fa-shopping-cart fa 4x" aria-hidden="true"></i></a>
-        <a href ="#search"> <i class="fa fa-search fa 4x" aria-hidden="true"></i>  </a>
-        <a href = "#menu"><i class="fa fa-bars fa 4x" aria-hidden="true"></i></a>
-       </div>
-    </div>
+    @include("header");
 
     <hr style="color:lightgrey; height:50%;">
 <div class="main-page">
@@ -74,11 +57,11 @@
           <i class="fa fa-star-o" aria-hidden="true"></i>
         </span>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at ultricies arcu, eu hendrerit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet diam ac dolor ornare lobortis. Integer vel rhoncus ex. Ut posuere luctus mollis. </p>
+        <p style="margin-right: 30%; font-size:12px;">Etiam at ultricies arcu, eu hendrerit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet diam ac dolor ornare lobortis. Integer vel rhoncus ex. Ut posuere luctus mollis. </p>
 
         <hr style="color: lightgrey">
         <br>
-        <select name="size"  form="orderform" style="width: 48%;float:left;height:25px;margin-bottom:25px">
+        <select name="size"  class="attribute-select"form="orderform" >
           <option value ="Size"> Choose your size </option>
           <option value="volvo">Volvo</option>
           <option value="saab">Saab</option>
@@ -86,22 +69,25 @@
           <option value="audi">Audi</option>
         </select>
 
-        <select name="size"  form="orderform" style="width: 48%;float:right;height:25px; margin-bottom:25px">
+        <select name="size" class="attribute-select" form="orderform" >
           <option value ="Size"> Color </option>
           <option value="volvo">Volvo</option>
           <option value="saab">Saab</option>
           <option value="opel">Opel</option>
           <option value="audi">Audi</option>
         </select>
+      <div style="clear:both"> </div>
+      <div class="spinner">
         <input  type="number"  value="1" min="1" max="100" step="1"/>
+      </div>
         <br>
         <div class="cart-container clearfix">
           <div class="cart">
             <span style="color:white"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> Add to Cart</span>
           </div>
           <div class="icon">
-            <i class="fa fa-heart-o" aria-hidden="true" style="border:1px solid grey; padding:10px ;"></i>
-            <i class="fa fa-heart-o" aria-hidden="true"style="border:1px solid grey;padding:10px"></i>
+            <i class="fa fa-heart-o" aria-hidden="true" style="border:1px solid lightgrey; padding:10px  ;"></i>
+            <i class="fa fa-heart-o" aria-hidden="true"style="border:1px solid lightgrey;padding:10px "></i>
           </div>
         </div>
       </div>
