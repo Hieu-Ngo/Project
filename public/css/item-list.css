@@ -134,16 +134,12 @@ a
 {
   padding-bottom: 20px;
 }
-.min-value
+.price-value
 {
   width: 38%;
   display: inline-block;
 }
-.max-value
-{
-  width: 38%;
-  display: inline-block;
-}
+
 
 
 .size-text{
@@ -188,9 +184,9 @@ font-size: 12px;}
 }
 .top-rated-text
 {
-  font-size: 12px;
-  margin-top: 20px;
-  vertical-align: center;
+font-size: 12px;
+margin-top: 20px;
+vertical-align: center;
 float:right
 word-wrap: break-word}
 
@@ -296,11 +292,11 @@ padding-right: 30px;
  }
 
 
-
+.noUI-base{
 .noUi-connect
 {
-  color: black;
-  background-color: black;
+  fill-color: black;
+}
 }
 @media screen and (max-width: 500px) {
   .header a {

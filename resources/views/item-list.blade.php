@@ -34,13 +34,13 @@
         <hr>
       </div>
         <div class="price">
-          <div id="slider" style="margin-bottom:10px;"> </div>
+          <div id="slider" style="margin-bottom:20px;"> </div>
 
 
           <div class="input-price">
-            <input type="text" name="min-valuue" placeholder="100" class="min-value"style="height:25px;">
+            <input type="text" name="min-value" placeholder="100" class="price-value"style="height:25px;">
 
-            <input type="text" name="max-value" placeholder="1000"class="max-value" style="height:25px;" >
+            <input type="text" name="max-value" placeholder="1000"class="price-value" style="height:25px;" >
             <span style="background-color:lightgreen;padding:5px; color:white"><i class="fa fa-search" aria-hidden="true"></i></span>
           </div>
         <hr>
@@ -104,7 +104,7 @@
 
         <div class="top-rated-content">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/1.png" alt="">
           </a>
           <div class="text-wrap">
           <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
@@ -118,7 +118,7 @@
 
       <div class="top-rated-content">
         <a href="/product-detail">
-        <img src="image/vertical rectangle.jpg" alt="">
+        <img src="image/2.png" alt="">
         </a>
         <div class="text-wrap">
         <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
@@ -132,7 +132,7 @@
 
     <div class="top-rated-content">
       <a href="/product-detail">
-      <img src="image/vertical rectangle.jpg" alt="">
+      <img src="image/3.png" alt="">
       </a>
       <div class="text-wrap">
       <div class="top-rated-text"> Casual man Wearing Cool Shoe        </div>
@@ -146,7 +146,7 @@
 <hr style="margin-top:30px">
 
 <div class="promo">
-  <img src="image/vertical rectangle.jpg" alt="">
+  <img src="image/4.png" alt="">
 </div>
 
 
@@ -172,7 +172,7 @@
         <div class="product-image">
 
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/5.png" alt="">
           </a>
         <div class="product-info">
           <div>
@@ -194,7 +194,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/6.png" alt="">
           </a>
         <div class="product-info">
           <div>
@@ -216,7 +216,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/7.png" alt="">
           </a>
 
         <div class="product-info">
@@ -239,7 +239,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/8.png" alt="">
           </a>
         <div class="product-info">
           <div>
@@ -262,7 +262,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/1.png" alt="">
           </a>
           <div class="product-info">
           <div>
@@ -284,7 +284,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/2.png" alt="">
           </a>
         <div class="product-info">
           <div>
@@ -307,7 +307,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/3.png" alt="">
           </a>
          <div class="product-info">
           <div>
@@ -329,7 +329,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/4.png" alt="">
           </a>
 
           <div class="product-info">
@@ -352,7 +352,7 @@
         <div class="product-image-wrapper">
         <div class="product-image">
           <a href="/product-detail">
-          <img src="image/vertical rectangle.jpg" alt="">
+          <img src="image/5.png" alt="">
           </a>
 
            <div class="product-info">

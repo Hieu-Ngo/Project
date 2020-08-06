@@ -26,17 +26,17 @@
     <div class="product-info">
         <div class="product-info-image">
           <div>
-            <img src="image/vertical rectangle.jpg" >
+            <img src="image/2.png" >
           </div>
         <div id="sync1" class="owl-carousel">
           <div class="item">
-            <img src="image/vertical rectangle.jpg" alt="">
+            <img src="image/4.png" alt="">
           </div>
           <div class="item">
-            <img src="image/vertical rectangle.jpg" alt="">
+            <img src="image/6.png" alt="">
           </div>
           <div class="item">
-            <img src="image/vertical rectangle.jpg" alt="">
+            <img src="image/8.png" alt="">
           </div>
         </div>
 
@@ -128,14 +128,16 @@
         <br>
         <div class="product-image-wrapper">
         <div class="product-image">
-          <img src="image/vertical rectangle.jpg" alt="">
+
+          <a href="/product-detail">
+          <img src="image/7.png" alt="">
+          </a>
         <div class="product-info">
           <div>
-          <span><strong>Crown Summit Backpack </strong> </span>
+          <span>Crown Summit Backpack  </span>
           </div>
           <div>
-          <span style="color:lightGreen"> $250.00 </span>
-        </div>
+          $250.00        </div>
         <div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -147,69 +149,74 @@
         </div>
         </div>
 
-      <div class="product-image-wrapper">
-      <div class="product-image">
-        <img src="image/vertical rectangle.jpg" alt="">
-      <div class="product-info">
-        <div>
-        <span><strong>Crown Summit Backpack </strong> </span>
+        <div class="product-image-wrapper">
+        <div class="product-image">
+
+          <a href="/product-detail">
+          <img src="image/1.png" alt="">
+          </a>
+        <div class="product-info">
+          <div>
+          <span>Crown Summit Backpack  </span>
+          </div>
+          <div>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
         </div>
-        <div>
-        <span style="color:lightGreen"> $250.00 </span>
-      </div>
-      <div class="star-rating">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-      </div>
-      </div>
-      </div>
-      </div>
+        </div>
+        </div>
+        </div>
 
-  <div class="product-image-wrapper">
-  <div class="product-image">
-    <img src="image/vertical rectangle.jpg" alt="">
-  <div class="product-info">
-    <div>
-    <span><strong>Crown Summit Backpack </strong> </span>
-    </div>
-    <div>
-    <span style="color:lightGreen"> $250.00 </span>
-  </div>
-  <div class="star-rating">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o" aria-hidden="true"></i>
-  </div>
-  </div>
-  </div>
-  </div>
+        <div class="product-image-wrapper">
+        <div class="product-image">
 
-<div class="product-image-wrapper">
-<div class="product-image">
-  <img src="image/vertical rectangle.jpg" alt="">
-<div class="product-info">
-  <div>
-  <span><strong>Crown Summit Backpack </strong> </span>
+          <a href="/product-detail">
+          <img src="image/5.png" alt="">
+          </a>
+        <div class="product-info">
+          <div>
+          <span>Crown Summit Backpack  </span>
+          </div>
+          <div>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        </div>
+        </div>
+        </div>
 
-  </div>
-  <div>
-  <span style="color:lightGreen"> $250.00 </span>
-</div>
-<div class="star-rating">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-</div>
-</div>
-</div>
+        <div class="product-image-wrapper">
+        <div class="product-image">
+
+          <a href="/product-detail">
+          <img src="image/3.png" alt="">
+          </a>
+        <div class="product-info">
+          <div>
+          <span>Crown Summit Backpack  </span>
+          </div>
+          <div>
+          $250.00        </div>
+        <div class="star-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        </div>
+        </div>
+        </div>
 </div>
 
 <div style="clear:both; margin-bottom:150px;">

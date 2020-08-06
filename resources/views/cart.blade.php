@@ -38,7 +38,7 @@
           		<td>
                 <div class="cart-item">
                   <div class="cart-item-image">
-                    <img src="image/vertical rectangle.jpg" alt="">
+                    <img src="image/2.png" alt="">
                   </div>
                   <div class="cart-item-text">
                     Casual man wearing cool shoes
@@ -69,7 +69,7 @@
               <td>
                 <div class="cart-item">
                   <div class="cart-item-image">
-                    <img src="image/vertical rectangle.jpg" alt="">
+                    <img src="image/8.png" alt="">
                   </div>
                   <div class="cart-item-text">
                     Casual man wearing cool shoes
@@ -102,7 +102,7 @@
               <td>
                 <div class="cart-item">
                   <div class="cart-item-image">
-                    <img src="image/vertical rectangle.jpg" alt="">
+                    <img src="image/6.png" alt="">
                   </div>
                   <div class="cart-item-text">
                     Casual man wearing cool shoes

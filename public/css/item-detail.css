@@ -267,23 +267,37 @@ border: 0.5px lightGrey solid;
 .product-image-wrapper
 {
   display: inline-block;
-  height:400px;
+  height:300px;
   width:  23%;
   margin-top: 10px;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-bottom: 20px;
 
 }
+.product-image img
+{
+  max-width: 100%;
+  height: 325px;
+}
+
+.product-info {
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 5px;
+  color: lightGreen;
+  height: auto;
+}
+.product-info span {
+  font-size: 12px;
+  color: black;
+}
+
 .star-rating {
   margin-top: 10px;
   font-size: 10px;
   color: orange;
 }
-.product-image img
-{
-  max-width: 100%;
-  height: auto;
-}
+
 .connect
 {
   width: 100%;
