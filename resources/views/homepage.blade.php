@@ -6,41 +6,38 @@
 <link rel="stylesheet" type="text/css" href="css/homepage.css">
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
 
 @include("header");
 
+
 <div class="header-image">
     <div class="slider">
       <div class="container">
         <div class="slideshow">
-          <img src="image/1.png" alt="Girl in a jacket" width= 100%, height=400>
-          <img src="image/2.png" alt="Girl in a jacket" width= 100%, height=400>
-          <img src="image/3.png" alt="Girl in a jacket" width= 100%, height=400>
+          <img src="image/1.png" alt="Girl in a jacket" >
+          <img src="image/2.png" alt="Girl in a jacket" >
+          <img src="image/3.png" alt="Girl in a jacket" >
         </div>
       </div>
     </div>
     <div class="text-over-image">
         <h1 >THE BEST</h1>
-        <h1 style=" color:lightGreen;">WOOCOMMERCE</h1>
-        <p>Lorem ipsum dolor sit amet, consecte</p>
-        <p>tur adipiscing elit. Ut condimentum pha</p>
-
+        <h1 style=" color:#3cb878;">WOOCOMMERCE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor et ex quis accumsan. Nunc varius, quam ac tempus pharetra, ligula lacus blandit lectus, sit amet pharetra nisl mauris semper ipsum. Aliquam ut dolor elementum, dapibus mauris quis, ultrices justo.</p>
         <a  href="#Buy Now">  <span > BUY NOW </span></a>
     </div>
     </div>
 
 
 <div class="best-seller">
-    <div class="container">
         <div class="product-one">
             <div class="best-seller-text">
             <h3> Best Seller </h3>
-            <p style="font-size:10px; color:lightgreen"><i>Duis pretium sit amet ex ut porttitor. Vestibulum</i><p>
-            <p style="font-size:14px">Nulla vel auctor dolor. Duis dictum, arcu a porttitor faucibus, augue dui gravida augue, ut suscipit leo ligula sit amet nibh. Praesent nec nibh ac turpis semper convallis. Praesent ipsum neque</p>
+            <i>Duis pretium sit amet ex ut porttitor. Vestibulum</i>
+            <p >Nulla vel auctor dolor. Duis dictum, arcu a porttitor faucibus, augue dui gravida augue, ut suscipit leo ligula sit amet nibh. Praesent nec nibh ac turpis semper convallis. Praesent ipsum neque</p>
 
             </div>
         </div>
@@ -56,7 +53,7 @@
           <div>
           <span>Crown Summit Backpack  </span>
           </div>
-          <div>
+          <div class="price">
           $250.00        </div>
         <div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -79,7 +76,7 @@
           <div>
           <span>Crown Summit Backpack  </span>
           </div>
-          <div>
+          <div class="price">
           $250.00        </div>
         <div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -102,7 +99,7 @@
           <div>
           <span>Crown Summit Backpack  </span>
           </div>
-          <div>
+          <div class="price">
           $250.00        </div>
         <div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -125,7 +122,7 @@
           <div>
           <span>Crown Summit Backpack  </span>
           </div>
-          <div>
+          <div class="price">
           $250.00        </div>
         <div class="star-rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -140,44 +137,43 @@
       </div>
     </div>
 <div class="event_section">
-  <div class="container">
-    <div class="event_one">
-      <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+    <div class="event">
+      <i class="fas fa-gem"></i>
       <h3>Fastest Shipping</h3>
       <p>2 Days Express</p>
     </div>
-    <div class="event_two">
+    <div class="event">
       <i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i>
       <h3>Free Shipping</h3>
       <p>With oder over 99$</p>
     </div>
 
-    <div class="event_three">
+    <div class="event">
       <i class="fa fa-recycle fa-lg" aria-hidden="true"></i>
       <h3>30 Days Return</h3>
       <p>Shop Big Save Big</p>
     </div>
-    <div class="event_four">
+    <div class="event">
       <i class="fa fa-diamond fa-lg" aria-hidden="true" ></i>
       <h3>Special Offers</h3>
       <p>Shop Big Save Big</p>
     </div>
   </div>
-</div>
+<div style="clear:both"></div>
+
+
 
 <div class="event-image">
-  <div class="container">
   <div class="promo-event-image">
-      <img src="image/1.png" alt="Offer1" width="502 px" height=430px>
-      <img src="image/8.png" alt="Offer2" width="502 px" height=430px>
-      <img src="image/5.png" alt="Offer3" width="  502  px" height=430px>
-  </div>
-
+      <img src="image/1.png" alt="Offer1" >
+      <img src="image/8.png" alt="Offer2" >
+      <img src="image/5.png" alt="Offer3" >
   </div>
 </div>
 
-<div class="most-featured-text",style=" margin-bottom=20px">
-      <p style="font-size:20px ; color :black; margin-bottom:-8px">  <b> FEATURED PRODUCTS</b></p>
+<div style="clear:both"></div>
+<div class="most-featured-text">
+      <h5>  <b> FEATURED PRODUCTS</b><h5>
       <p style="font-size:10px; color: lightGreen;font-style: italic;"> The newest trend from top brand</p>
 </div>
 
@@ -193,7 +189,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -216,7 +212,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -239,31 +235,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
-    $250.00        </div>
-  <div class="star-rating">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o" aria-hidden="true"></i>
-  </div>
-  </div>
-  </div>
-  </div>
-
-
-  <div class="product-image-wrapper">
-  <div class="product-image">
-
-    <a href="/product-detail">
-    <img src="image/7.png" alt="">
-    </a>
-  <div class="product-info">
-    <div>
-    <span>Crown Summit Backpack  </span>
-    </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -287,7 +259,31 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
+    <div class="price">
+    $250.00        </div>
+  <div class="star-rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <div class="product-image-wrapper">
+  <div class="product-image">
+
+    <a href="/product-detail">
+    <img src="image/7.png" alt="">
+    </a>
+  <div class="product-info">
     <div>
+    <span>Crown Summit Backpack  </span>
+    </div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -316,7 +312,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -339,7 +335,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -362,7 +358,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -385,7 +381,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -411,7 +407,7 @@
     <div>
     <span>Crown Summit Backpack  </span>
     </div>
-    <div>
+    <div class="price">
     $250.00        </div>
   <div class="star-rating">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -428,23 +424,30 @@
 </div>
 
 <div class="email-footer">
-  <div class=container>
-    <div class = "footer-image-list">
-      <img src="image/black rectangle.jpg" width="52%" height="220px">
+    <div class = "email-footer-left">
+  <div>
+      <img src="image/black rectangle.jpg">
+  </div>
       <div class="email-promo" >
-        <h3> GET OUR SPECIAL DISCOUNT</h3>
-        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h6  >
-        <input type="submit"value="Get  Coupon Now" style="float: right" />
-        <div style="overflow: hidden; padding-right: .5em;">
-        <input type="text" style="width: 300px;" placeholder="Your email" />
-</div>
-      </div>
-      <img src="image/4.png" alt="Offer1" width="181 px" height=220px padding=0px;>
-      <img src="image/5.png" alt="Offer2" width="181 px" height=220px>
-      <img src="image/6.png" alt="Offer3" width="  181  px" height=220px>
-      <img src="image/7.png" alt="Offer2" width="181 px" height=220px>
+        <h3> GET OUT SPECIAL DISCOUNT</h3>
+        <div class="email-promo-text">
+          <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor et ex quis accumsan. Nunc varius, quam ac tempus pharetra, ligula lacus blandit lectus, sit amet pharetra nisl mauris semper ipsum. Aliquam ut dolor elementum, dapibus mauris quis, ultrices justo.  </h6  >
+        </div>
+        <div class="email-promo-input">
+          <input  id="submit" type="submit"value="GET COUPON NOW" style="float: right" />
+          <div style="overflow: hidden; padding-right: .5em;">
+          <input  id="email" type="text"  placeholder="Your email" />
+        </div>
 
 </div>
+    </div>
+  </div>
+  <div class="email-footer-right">
+      <img src="image/4.png" alt="Offer1">
+      <img src="image/5.png" alt="Offer2">
+      <img src="image/6.png" alt="Offer3" >
+      <img src="image/7.png" alt="Offer2">
+
 </div>
 </div>
 
@@ -467,7 +470,7 @@
 
 
 <div class="footer">
-<ul style="  margin: 0px 0px 0px 63px;">
+<ul style="  margin: 0px 145px 0px 0px;">
   <li><h4> Information </h4></li>
  <li><a href='' title='Link'>Delivery Information</a></li>
  <li><a href='' title='Link'>Site Map</a></li>
@@ -477,7 +480,7 @@
 
 
 </ul>
-<ul >
+<ul style="  margin: 0px 155px 0px 0px;">
   <li><h4> Your Account </h4></li>
  <li><a href='' title='Link'>Track YOur Order</a></li>
  <li><a href='' title='Link'>My Wishlist</a></li>
@@ -490,7 +493,7 @@
  <li><a href='' title='Link'>Shipping</a></li>
  <li><a href='' title='Link'>Privacy Policy</a></li>
 </ul>
-<ul  style="margin: 0px 0px 0px 150px;">
+<ul  style="margin: 0px 0px 0px 200px;">
   <li><h4> Contact Information </h4></li>
  <li>
  <i class="fa fa-globe" aria-hidden="true"></i>
