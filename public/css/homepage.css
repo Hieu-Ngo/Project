@@ -239,11 +239,14 @@ text-align: center;
 
 .promo-event-image  img
 {
+  object-fit: fill;
   float: left;
-  width: 33.3333333333%;
+  width: 634px;
   height: 640px;
   padding: 0px;
+  margin:0px;
   margin-bottom: 100px;
+
 
 }
 .event-image

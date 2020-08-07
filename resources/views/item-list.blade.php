@@ -12,9 +12,9 @@
   </head>
   <body>
     @include("header");
-
-    <hr>
-
+    <div style="margin-top:-25px ;color:#e9edeb">
+    <hr >
+  </div>
     <div class="mainpage clearfix">
       <aside class="sidebar">
         <div class="category">

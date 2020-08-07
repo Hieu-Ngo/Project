@@ -7,19 +7,27 @@
     <link rel="stylesheet" type="text/css" href="css/item-detail.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/ac206ac257.js" crossorigin="anonymous"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.typekit.net/eti4jqa.css" type="text/css">
+
+
+
+
 
 
   </head>
   <body>
     @include("header");
-
-    <hr style="color:lightgrey; height:50%;">
+    <div style="margin-top:-33px;">
+    <hr>
+  </div>
 <div class="main-page">
     <div class="directory-bar">
-        <a href="#">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Page</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Shop</a> <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        <a href="#">Product</a>
+        <a href="#">Home</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#">Page</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#">Shop</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#" style="color:#3cb878">Product</a>
     </div>
 
 
@@ -48,8 +56,8 @@
 
       <div class="product-info-text">
         <h2>This Is The Product Name </h2>
-        <span style="color: lightGreen; margin-left:5px; margin-right: 5px;font-size: 22px"> $ 250.00  </span>
-        <span style="font-size:10px;color:orange">
+        <h3> $ 250.00  </h3>
+        <span >
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -57,7 +65,7 @@
           <i class="fa fa-star-o" aria-hidden="true"></i>
         </span>
         <br>
-        <p style="margin-right: 30%; font-size:12px;">Etiam at ultricies arcu, eu hendrerit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet diam ac dolor ornare lobortis. Integer vel rhoncus ex. Ut posuere luctus mollis. </p>
+        <p >Etiam at ultricies arcu, eu hendrerit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet diam ac dolor ornare lobortis. Integer vel rhoncus ex. Ut posuere luctus mollis. </p>
 
         <hr style="color: lightgrey">
         <br>
@@ -83,11 +91,12 @@
         <br>
         <div class="cart-container clearfix">
           <div class="cart">
-            <span style="color:white"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> Add to Cart</span>
+            <span style="  font-size: 14px; color:white;  font-weight: 400;"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> ADD TO CART</span>
           </div>
           <div class="icon">
-            <i class="fa fa-heart-o" aria-hidden="true" style="border:1px solid lightgrey; padding:10px  ;"></i>
-            <i class="fa fa-heart-o" aria-hidden="true"style="border:1px solid lightgrey;padding:10px "></i>
+            <span><i class="fa fa-heart-o" aria-hidden="true" ></i></span>
+
+            <span><i class="fas fa-sync-alt"></i> </span>
           </div>
         </div>
       </div>
@@ -101,7 +110,7 @@
              Description
           </div>
           <div class="review">
-             Review
+             Review(2)
           </div>
         </div>
         <div class="description-text">
@@ -112,18 +121,21 @@
       <div style="clear:both"></div>
 
       <div class="related-product-text">
+        <div class="related-product-header">
+
           <div class="text">
             <strong>Related Product </strong>
           </div>
           <div class="arrow">
-            <div class="arrow-left">
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <div class="arrow-icon">
+              <i class="fa fa-long-arrow-right " style="color:white" aria-hidden="true"></i>
 
             </div>
-            <div class="arrow-right">
-              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            <div class="arrow-icon">
+              <i class="fa fa-long-arrow-left" style="background-color:white"aria-hidden="true"></i>
             </div>
         </div>
+      </div>
         <br>
         <br>
         <div class="product-image-wrapper">
@@ -222,8 +234,9 @@
 <div style="clear:both; margin-bottom:150px;">
 
 </div>
+</div>
 
-<div >
+<div class="footer" >
 <hr>
 <div class="connect">
   <div class="connect-left">
@@ -243,8 +256,8 @@
 <hr>
 
 
-<div class="footer">
-<ul  style="margin: 0px 78px 0px 0px";
+<div class="footer-bar">
+<ul  style="margin-right:150px";
 >
   <li><h4> Information </h4></li>
  <li><a href='' title='Link'>Delivery Information</a></li>
@@ -255,14 +268,14 @@
 
 
 </ul>
-<ul>
+<ul style="margin-right:130px">
   <li><h4> Your Account </h4></li>
  <li><a href='' title='Link'>Track YOur Order</a></li>
  <li><a href='' title='Link'>My Wishlist</a></li>
  <li><a href='' title='Link'>My Account</a></li>
 </ul>
 </ul>
-<ul>
+<ul style="margin-right:205px">
   <li><h4> Help </h4></li>
  <li><a href='' title='Link'>FAQ</a></li>
  <li><a href='' title='Link'>Shipping</a></li>
