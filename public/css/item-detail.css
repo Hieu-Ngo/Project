@@ -340,8 +340,10 @@ font-family: "Poppins";
 {
   margin-right: 355px;
 }
+
 .arrow-icon
 {
+
 
   box-sizing: border-box;
   float: right;
@@ -358,6 +360,8 @@ font-family: "Poppins";
   height:20px;
   width: 35px;
   margin-left: 10px;
+  border: 0px hidden;
+
 
 
 }
@@ -407,74 +411,6 @@ color: #ff9600;
 }
 
 
-.footer
-{
-  margin-top: -80px;
-}
-.connect
-{
-  width: 100%;
-  display: inline-block;
-}
-.connect-left
-{
-  margin-left: 375px;
-padding-right: 30px;
-  width:30%;
-  text-align: left;
-  display:inline;
-  float: left;
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 20px;
-  color: #333333;
-  font-weight: 400;
-  font-family: "Roboto";
-
-}
-
-.connect-right {
-  width: 20%;
-  display: inline;
-  text-align: right;
-  float: right;
-  margin-right: 350px;
-  font-size: 16px;
-  letter-spacing: 14px;
-  line-height: 19px;
-  color: #333333;
-
-}
-
-
-
-.footer-bar {
-margin-left: 375px;
-margin-top: 40px;
-
-}
-.footer-bar ul {
-  display: inline-table;
-  list-style: none;
-  text-align: left;
-  padding-inline-start:0px;
-  font-size: 16px;
-letter-spacing: 1px;
-line-height: 20px;
-color: #333333;
-font-weight: 600;
-font-family: "Poppins";
- }
-
- .footer-bar li {
-   margin-top: 10px;
-
-   font-size: 14px;
-   letter-spacing: 0px;
-   line-height: 16px;
-   color: #333333;
-   font-weight: 400;
-   font-family: "Roboto"; }
 
 
 @media screen and (max-width: 500px) {

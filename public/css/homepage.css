@@ -12,6 +12,7 @@ a
     text-decoration: none;
 }
 
+
 .margin-left
 {
   margin-left: 5px;
@@ -197,7 +198,7 @@ font-family: "Poppins";
 	height: 200px;
 	float: left;
 	margin-top: 50px;
-  background-color:lightgrey;
+  background-color:#f5f6f9;
   vertical-align: middle;
 
 
@@ -300,8 +301,11 @@ text-align: center;
 .connect
 {
   padding-top: 20px;
+  padding-bottom: 5px;
   width: 100%;
   display: inline-block;
+  border-bottom:  #f5f6f9 solid 0.2px;
+
 }
 .connect-left
 {
@@ -395,11 +399,12 @@ text-align: center;
   width: 400px;
   height: 50px;
   padding-left: 10px;
+  box-sizing: border-box;
 }
 #submit
 {
   background: #3cb878;
-  height: 55px;
+  height: 50px;
   width: 200px;
   font-size: 14px;
 letter-spacing: 1px;
@@ -408,13 +413,16 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Poppins";
 text-align: center;
+border: hidden;
 }
 .email-footer-right img
 {
-float: left;
-width:235.4px;
+float: right;
+width:943px;
 height: 300px;
 max-width: 100%;
+margin: 0px;
+padding: 0px;
 }
 .footer {
  margin-left: 375px;

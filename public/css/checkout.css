@@ -10,61 +10,14 @@ a
   text-decoration: none;
   color: black;
 }
-
-.header {
-  overflow: hidden;
-  background-color: white;
-  padding-top: 20px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  line-height: 25px;
-  border-radius: 4px;
-
-}
-
-
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  color: Green;
-}
-
-.header-left
+hr
 {
-  width: 25%;
-  font-weight: bolder;
-  font-size: 28px;
+  border-top: 0.5px #e3e3e3 solid;
+  border-bottom: 30px;
 }
-.header-center {
-  width:35%;
-  margin:0 auto;
-  color: gray;
-  padding-bottom: 10px;
-  font-weight: bolder;
-  font-size: 12px;
-
-
-}
-.header-right {
-  width: 10%;
-  float: right;
-  font-size: 14px;
-  padding-top: 0px;
-}
-
 .main-page {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 390px;
+  margin-right: 390px;
 }
 
 .directory-bar
@@ -90,114 +43,130 @@ a
 
 .col-50
 {
-  width: 45%;
+  width: 300px;
   float: left;
 }
 .caption
 {
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 14px;
+line-height: 20px;
+color: #232323;
+font-weight: 400;
+font-family: "Roboto";
 }
 
 .input-50 input
 {
-  width :95%;
-  height: 25px;
-  margin-bottom: 10px;
+  float: left;
+  width :300px;
+  height: 45px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-right: 65px;
+  padding-left: 15px;
+  border: 0.2px #b3b2b3 solid;
+
 }
-.col-100
+.col-100 select
 {
-  width: 99%;
+  width:660px;
+  height: 45px ;
+  margin-bottom:20px;
+   padding-left:15px;
+    border: 0.2px #b3b2b3 solid;"
+    padding-right:20px;
 }
 .input-100 input
 {
-  width: 99%;
-  height:25px;
-  margin-bottom: 10px;
+  width: 660px;
+  height:45px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border: 0.2px #b3b2b3 solid;
 }
+
 
 .billing{
+  box-sizing: border-box;
   float:right;
-  border: 1px solid black;
-  width: 38%;
-  padding: 5px;
+  border: 1px solid #b3b2b3;
+  width: 445px;
   margin-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  font-size: 14px;
+line-height: 20px;
+color: #232323;
+font-weight: 400;
+font-family: "Roboto";
+
 }
 
+.billing h5
+{
+  font-size: 14px;
+letter-spacing: 1px;
+line-height: 60px;
+color: #242628;
+font-weight: 600;
+font-family: "Poppins";
+}
+
+.total
+{
+  font-size: 18px;
+line-height: 20px;
+color: #232323;
+font-weight: 500;
+font-family: "Roboto";
+}
 .container-item
 {
-  font-size: 12px;
   margin-bottom: 10px;
-  padding: 5px;
   padding-top: 0px;
 }
 
 .checkbox-text
 {
   padding-top: 15px;
-  font-size: 12px;
 }
+.bank-text
+{font-size: 14px;
+line-height: 24px;
+color: #232323;
+font-weight: 400;
+font-family: "Roboto";
+letter-spacing: 0px;
+padding-right: 55px;
+background-color: #f8f8f8;
+padding-left:20px;
+margin-top: 15px;}
 
+.checkbox-button
+{
+  vertical-align: middle;
+
+}
 .checkout-button button
 {
+  box-sizing: border-box;
 float: right;
-padding:5px;
-background-color: lightgreen;
+background-color: #3cb878;
 color: white;
 border: hidden;
-font-size: 13px;
-height: 40px;
-width: 10%;
+height: 35px;
+width: 135px;
+font-size: 14px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
 }
 
-.connect
-{
-  width: 100%;
-  display: inline-block;
-}
-.connect-left
-{
-padding-right: 30px;
-  width:40%;
-  text-align: left;
-  display:inline;
-  float: left;
-  font-size: 12px;
-
-
-}
-
-.connect-right {
-  width: 20%;
-  display: inline;
-  text-align: right;
-  float: right;
-  margin-right: 100px;
-  font-size: 12px;
-
-}
-
-
-
-.footer {
-
-}
-.footer ul {
-  display: inline-table;
-  list-style: none;
-  text-align: left;
-  margin: 0px 78px 0px 80px;
-  padding-inline-start:0px;
- }
-
- .footer li {
-   margin-top: 5px;
-   font-size: 12px;
- }
-
-.footer h4{
-  font-size: 16px;
-}
 
 @media screen and (max-width: 500px) {
   .header a {

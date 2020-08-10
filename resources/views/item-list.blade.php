@@ -7,18 +7,26 @@
     <link rel="stylesheet" type="text/css" href="css/item-list.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.0/nouislider.min.css" rel="stylesheet" src="">
     <script src="https://kit.fontawesome.com/ac206ac257.js" crossorigin="anonymous"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.typekit.net/eti4jqa.css" type="text/css">
 
 
   </head>
   <body>
     @include("header");
-    <div style="margin-top:-25px ;color:#e9edeb">
-    <hr >
-  </div>
+    <hr>
+    <div class="directory-bar">
+        <a href="#">Home</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#">Page</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#">Shop</a> <i class="fas fa-angle-double-right"></i>
+        <a href="#" style="color:#3cb878">Cart</a>
+    </div>
+
     <div class="mainpage clearfix">
-      <aside class="sidebar">
+      <div class="sidebar">
         <div class="category">
-            <div style="padding-left:5px; font-weight:bold; font-size:14px">CATEGORIES</div>
+            <h4>CATEGORIES</h4>
           <div>
             <ul id="category-list">
               <li><a href="#Accessory"></a>Accessory(15)</li>
@@ -34,35 +42,36 @@
         <hr>
       </div>
         <div class="price">
+          <h4>PRICE FILTER</h4>
+
           <div id="slider" style="margin-bottom:20px;"> </div>
 
 
           <div class="input-price">
-            <input type="text" name="min-value" placeholder="100" class="price-value"style="height:25px;">
+            <input type="text" name="min-value" placeholder="$100" class="price-value">
 
-            <input type="text" name="max-value" placeholder="1000"class="price-value" style="height:25px;" >
-            <span style="background-color:lightgreen;padding:5px; color:white"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <input type="text" name="max-value" placeholder="$1000"class="price-value" >
+            <span style="background-color:#3cb878;padding:9px; color:white; font-size: 16px"><i class="fa fa-search" aria-hidden="true"></i></span>
           </div>
         <hr>
       </div>
       <div class="size">
-        <div><span style="font-weight:bold">Size </span>
+        <h4>SIZE </h4>
           <br>
-        <div class="size-text" >XS</div>
-        <div class="size-text" >S</div>
-        <div class="size-text">M</div>
-        <div class="size-text">L</div>
-        <div class="size-text">SL</div>
-        <div class="size-text">XL</div>
-        <div class="size-text">XXL</div>
+        <a href="#"><div class="size-text" >XS</div></a>
+        <a href="#" ><div class="size-text" style="background-color:#3cb878" >S</div></a>
+        <a href="#"><div class="size-text" >M</div></a>
+        <a href="#"><div class="size-text" >L</div></a>
+        <a href="#"><div class="size-text" >XL</div></a>
+        <a href="#"><div class="size-text" >XXL</div></a>
+        <a href="#"><div class="size-text" >XXL</div></a>
         </div>
         <br>
-      </div>
       <div style="clear:both"></div>
       <div class="colors">
         <hr style="margin-top:8px;">
 
-        <div style="padding-left:2px; font-weight:bold; font-size:14px;"> COLOR </ ></div>
+        <h4> COLOR </h4>
         <div class="color-checkbox">
           <div>
           <input type="checkbox" >
@@ -89,7 +98,7 @@
             </label>
           </div>
           <div>
-          <input type="checkbox" checked="checked">
+          <input type="checkbox" >
           <label class="container">Yellow
               <span class="checkmark"></span>
             </label>
@@ -100,7 +109,7 @@
       </div>
       <hr>
       <div class="top-rated">
-        <div style="padding-left:5px; font-weight:bold; font-size:14px; margin-bottom:10px">TOP RATED</div>
+        <h4>TOP RATED</h4>
 
         <div class="top-rated-content">
           <a href="/product-detail">
@@ -150,12 +159,12 @@
 </div>
 
 
-      </aside>
-
+</div>
+</div>
 
       <div class="content">
-        <div class="header">
-          <span style="color:lightgrey; font-size:11px"> Showing 1-12 out of 14 result</span>
+        <div class="search-bar">
+          <span style="font-size: 14px;letter-spacing: 0px;color: #777777;font-weight: 400;font-family: "Roboto";"> Showing 1-12 out of 14 result</span>
           <select class="" name="">
             <option value="">Sort by Name</option>
             <option value="saab">Saab</option>
@@ -165,7 +174,7 @@
 
         </div>
 
-<hr style="margin-right:10%">
+<hr style="margin-right:15px">
 
         <div class="product-list">
         <div class="product-image-wrapper">
@@ -385,72 +394,13 @@
       </div>
     </div>
 
-    <div style="clear:both; margin-bottom:30px;">
+    <div style="clear:both; margin-bottom:140px;">
 
     </div>
   </div>
 
-    <div  style="margin-left:15%; margin-right:15%;">
-      <hr style=" margin-left: -300px;width:2000px">
 
-
-
-    <div class="connect">
-      <div class="connect-left">
-        We deliver your dream Website.Stay connect with us
-      </div>
-      <div class="connect-right">
-        <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
-        <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
-        <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
-        <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
-        <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
-
-
-      </div>
-    </div>
-
-
-    <hr style=" margin-left: -300px;width:2000px">
-
-    <div class="footer">
-    <ul  style="margin: 0px 78px 0px 0px";
-    >
-      <li><h4> Information </h4></li>
-     <li><a href='' title='Link'>Delivery Information</a></li>
-     <li><a href='' title='Link'>Site Map</a></li>
-     <li><a href='' title='Link'>Contact Us</a></li>
-     <li><a href='' title='Link'>Privecy Policy</a></li>
-     <li><a href='' title='Link'>My Account</a></li>
-
-
-    </ul>
-    <ul>
-      <li><h4> Your Account </h4></li>
-     <li><a href='' title='Link'>Track YOur Order</a></li>
-     <li><a href='' title='Link'>My Wishlist</a></li>
-     <li><a href='' title='Link'>My Account</a></li>
-    </ul>
-    </ul>
-    <ul>
-      <li><h4> Help </h4></li>
-     <li><a href='' title='Link'>FAQ</a></li>
-     <li><a href='' title='Link'>Shipping</a></li>
-     <li><a href='' title='Link'>Privacy Policy</a></li>
-    </ul>
-    <ul>
-      <li><h4> Contact Information </h4></li>
-     <li>
-     <i class="fa fa-globe" aria-hidden="true"></i>
-     <a href='' title='Link'>123 Your Address</a></li>
-     <li><i class="fa fa-phone" aria-hidden="true"></i>
-     <a href='' title='Link'>+121231231241</a></li>
-     <li><i class="fa fa-envelope" aria-hidden="true"></i>
-     <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
-    </ul>
-    </div>
-
-    </div>
+@include("footer")
 
 
 </body>

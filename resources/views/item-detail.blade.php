@@ -91,12 +91,12 @@
         <br>
         <div class="cart-container clearfix">
           <div class="cart">
-            <span style="  font-size: 14px; color:white;  font-weight: 400;"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> ADD TO CART</span>
+          <a href="#"> <span style="  font-size: 14px; color:white;  font-weight: 400;"><i class="fa fa-shopping-cart style" aria-hidden="true"></i> ADD TO CART</span></a> 
           </div>
           <div class="icon">
-            <span><i class="fa fa-heart-o" aria-hidden="true" ></i></span>
+          <a href="#">  <span><i class="fa fa-heart-o" aria-hidden="true" ></i></span></a>
 
-            <span><i class="fas fa-sync-alt"></i> </span>
+            <a href=""><span><i class="fas fa-sync-alt"></i> </span></a>
           </div>
         </div>
       </div>
@@ -107,10 +107,10 @@
       <div class="review-description">
         <div class="title">
           <div class="description">
-             Description
+            <a href="#"> Description </a>
           </div>
           <div class="review">
-             Review(2)
+            <a href="#"> Review(2) </a>
           </div>
         </div>
         <div class="description-text">
@@ -128,11 +128,15 @@
           </div>
           <div class="arrow">
             <div class="arrow-icon">
+              <a href="">
               <i class="fa fa-long-arrow-right " style="color:white" aria-hidden="true"></i>
+              </a>
 
             </div>
             <div class="arrow-icon">
-              <i class="fa fa-long-arrow-left" style="background-color:white"aria-hidden="true"></i>
+              <a href="">
+              <i class="fa fa-long-arrow-left" style="background-color:#f5f6f9"aria-hidden="true"></i>
+              </a>
             </div>
         </div>
       </div>
@@ -236,66 +240,7 @@
 </div>
 </div>
 
-<div class="footer" >
-<hr>
-<div class="connect">
-  <div class="connect-left">
-    We deliver your dream Website.Stay connect with us
-  </div>
-  <div class="connect-right">
-    <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
-    <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
-    <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
-    <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
-    <i class="fa fa-behance" aria-hidden="true" style="font-size:14px;"></i>
-
-
-  </div>
-</div>
-
-<hr>
-
-
-<div class="footer-bar">
-<ul  style="margin-right:150px";
->
-  <li><h4> Information </h4></li>
- <li><a href='' title='Link'>Delivery Information</a></li>
- <li><a href='' title='Link'>Site Map</a></li>
- <li><a href='' title='Link'>Contact Us</a></li>
- <li><a href='' title='Link'>Privecy Policy</a></li>
- <li><a href='' title='Link'>My Account</a></li>
-
-
-</ul>
-<ul style="margin-right:130px">
-  <li><h4> Your Account </h4></li>
- <li><a href='' title='Link'>Track YOur Order</a></li>
- <li><a href='' title='Link'>My Wishlist</a></li>
- <li><a href='' title='Link'>My Account</a></li>
-</ul>
-</ul>
-<ul style="margin-right:205px">
-  <li><h4> Help </h4></li>
- <li><a href='' title='Link'>FAQ</a></li>
- <li><a href='' title='Link'>Shipping</a></li>
- <li><a href='' title='Link'>Privacy Policy</a></li>
-</ul>
-<ul>
-  <li><h4> Contact Information </h4></li>
- <li>
- <i class="fa fa-globe" aria-hidden="true"></i>
- <a href='' title='Link'>123 Your Address</a></li>
- <li><i class="fa fa-phone" aria-hidden="true"></i>
- <a href='' title='Link'>+121231231241</a></li>
- <li><i class="fa fa-envelope" aria-hidden="true"></i>
- <a href='' title='Link'><span style="color:lightGreen">email@emailaddress.com</a><span></li>
-</ul>
-</div>
-
-</div>
-
-
+@include("footer")
 
 </div>
 

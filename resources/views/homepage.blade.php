@@ -443,10 +443,8 @@
     </div>
   </div>
   <div class="email-footer-right">
-      <img src="image/4.png" alt="Offer1">
-      <img src="image/5.png" alt="Offer2">
-      <img src="image/6.png" alt="Offer3" >
-      <img src="image/7.png" alt="Offer2">
+      <img src="image/event.png" alt="Offer1">
+
 
 </div>
 </div>
@@ -456,7 +454,7 @@
     We deliver your dream Website.Stay connect with us
   </div>
   <div class="connect-right">
-    <i class="fab fa-twitter fa-lg " style="margin-right:30px" ></i>
+    <i class="fab fa-twitter fa-lg " style="margin-right:30px; border-left: #f5f6f9 solid 0.5px; padding-left:20px" ></i>
     <i class="fab fa-facebook fa-lg" style="margin-right:30px"></i>
     <i class="fab fa-instagram fa-lg"style="margin-right:30px"></i>
     <i class="fab fa-linkedin fa-lg"style="margin-right:30px"></i>
@@ -466,7 +464,7 @@
   </div>
 </div>
 
-<hr>
+
 
 
 <div class="footer">
